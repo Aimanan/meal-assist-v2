@@ -5,6 +5,8 @@ import { TextCard } from "../../components/TextCard/TextCard";
 
 export function MealList() {
   const mealList = useSelector((store) => store.meals.mealList);
+  const foodList = useSelector((store) => store.foods.foodList);
+
   const navigate = useNavigate();
   return (
     <div className={`row justify-content-center ${s.cards_container}`}>
@@ -14,6 +16,7 @@ export function MealList() {
             id={meal.id}
             userId={meal.userId}
             consumedFoods={meal.consumedFoods}
+            foodList={foodList} // ✅ pass foodList
             timestamp={meal.timestamp}
             review={meal.review}
             onClickTrash={() => alert("onClickTrash()")}

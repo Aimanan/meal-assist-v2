@@ -29,7 +29,7 @@ export function App() {
   useEffect(() => {
     fetchAllMeals();
     fetchAllUsers();
-    fetchAllUsers();
+    fetchAllFoods();
   }, []);
 
   return (

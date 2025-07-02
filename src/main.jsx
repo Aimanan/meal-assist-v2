@@ -10,6 +10,8 @@ import { MealCreate } from "./pages/MealCreate/MealCreate.jsx";
 import { User } from "./pages/User/User";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { UserBrowse } from "./pages/UserBrowse/UserBrowse.jsx";
+import { FoodBrowse } from "./pages/FoodBrowse/FoodBrowse.jsx";
+import { Food } from "./pages/Food/Food.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -18,12 +20,13 @@ createRoot(document.getElementById("root")).render(
         <Routes>
           <Route path="/" element={<App />}>
             <Route path="/" element={<MealBrowse />} />
+            <Route path="/meal" element={<MealBrowse />} />
             <Route path="/meal/:mealId" element={<Meal />} />
             <Route path="/meal/new" element={<MealCreate />} />
             <Route path="/user" element={<UserBrowse />} />
             <Route path="/user/:userId" element={<User />} />
-
-            {/* <Route path="/food" element={<Food />} /> */}
+            <Route path="/food" element={<FoodBrowse />} />
+            <Route path="/food/:foodId" element={<Food />} />
           </Route>
         </Routes>
       </BrowserRouter>

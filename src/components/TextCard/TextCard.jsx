@@ -1,18 +1,20 @@
 import { useState } from "react";
 import { Trash } from "react-bootstrap-icons";
 import s from "./style.module.css";
-import { User } from "../../pages/User/User";
+import { useNavigate } from "react-router-dom";
 
 export function TextCard({
   id,
   userId,
   consumedFoods,
+  foodList,
   timestamp,
   review,
   onClickCard,
   onClickTrash,
   onClickUser,
 }) {
+  const navigate = useNavigate();
   const [isCardHovered, setIsCardHovered] = useState(false);
   const [isTrashHovered, setIsTrashHovered] = useState(false);
 
@@ -53,7 +55,7 @@ export function TextCard({
         <p className={`${s.text_content} ${s.meta_row} ${s.id_row}`}>
           ID: {id}
         </p>
-        {/* <User /> */}
+
         <div className={`${s.text_content} ${s.meta_row} ${s.user_row}`}>
           User ID: {userId}
           <div className="col d-flex align-items-end">
@@ -80,15 +82,35 @@ export function TextCard({
               </thead>
               <tbody>
                 {Array.isArray(consumedFoods) && consumedFoods.length > 0 ? (
-                  consumedFoods.map((food, index) => (
-                    <tr key={index}>
-                      <td>{food.foodName}</td>
-                      <td>
-                        {food.amount} {food.unit}
-                      </td>
-                      <td>{food.calories} kcal</td>
-                    </tr>
-                  ))
+                  consumedFoods.map((foodItem, index) => {
+                    const food = foodList.find(
+                      (f) => f.name === foodItem.foodName
+                    );
+
+                    return (
+                      <tr key={index}>
+                        <td>
+                          {food ? (
+                            <span
+                              className={s.food_link}
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                navigate(`/food/${food.id}`);
+                              }}
+                            >
+                              {foodItem.foodName}
+                            </span>
+                          ) : (
+                            foodItem.foodName
+                          )}
+                        </td>
+                        <td>
+                          {foodItem.amount} {foodItem.unit}
+                        </td>
+                        <td>{foodItem.calories} kcal</td>
+                      </tr>
+                    );
+                  })
                 ) : (
                   <tr>
                     <td colSpan="3">No food data available</td>

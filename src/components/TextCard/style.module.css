@@ -98,6 +98,24 @@
   color: #333;
 }
 
+.food_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.food_link {
+  color: #0d6efd;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.food_link:hover {
+  color: #084298;
+}
+
 @media (max-width: 480px) {
   .container {
     padding: 16px;
