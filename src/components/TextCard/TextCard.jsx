@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Trash } from "react-bootstrap-icons";
 import s from "./style.module.css";
+import { User } from "../../pages/User/User";
 
 export function TextCard({
   id,
@@ -10,12 +11,18 @@ export function TextCard({
   review,
   onClickCard,
   onClickTrash,
+  onClickUser,
 }) {
   const [isCardHovered, setIsCardHovered] = useState(false);
   const [isTrashHovered, setIsTrashHovered] = useState(false);
 
   function onClickTrash_(e) {
     onClickTrash();
+    e.stopPropagation();
+  }
+
+  function onClickUser_(e) {
+    onClickUser();
     e.stopPropagation();
   }
 
@@ -46,9 +53,19 @@ export function TextCard({
         <p className={`${s.text_content} ${s.meta_row} ${s.id_row}`}>
           ID: {id}
         </p>
-        <p className={`${s.text_content} ${s.meta_row} ${s.user_row}`}>
+        {/* <User /> */}
+        <div className={`${s.text_content} ${s.meta_row} ${s.user_row}`}>
           User ID: {userId}
-        </p>
+          <div className="col d-flex align-items-end">
+            <button
+              type="button"
+              className="btn btn-info"
+              onClick={onClickUser_}
+            >
+              User Info
+            </button>
+          </div>
+        </div>
 
         <div className={`${s.meta_row} ${s.food_row}`}>
           <label className={s.food_label}>Consumed Foods</label>

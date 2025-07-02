@@ -18,6 +18,7 @@ export function MealList() {
             review={meal.review}
             onClickTrash={() => alert("onClickTrash()")}
             onClickCard={() => navigate("meal/" + meal.id)}
+            onClickUser={() => navigate("user/" + meal.userId)}
           />
         </div>
       ))}
