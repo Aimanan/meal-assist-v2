@@ -6,8 +6,10 @@ const BASE_URL_BACKEND= "http://localhost:8080";
 
 export class MealApi {
   static async createMeal(formValues) {
-    //"http://localhost:8080/meal/user{id}"
-    return (await axios.post(`${BASE_URL}/meal/user/${mealId}`, formValues)).data;
+    //"http://localhost:8080/meal/user/{id}"
+    // return (await axios.post(`${BASE_URL}/meal/user/${formValues.userId}`, formValues)).data;
+    return (await axios.post(`${BASE_URL}/meal`, formValues)).data;
+
     //BE
     //    return (await axios.post(`${BASE_URL}/meal/user/${mealId}`, formValues)).data;
 

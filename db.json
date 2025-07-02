@@ -1,708 +1,782 @@
 {
-    "meal": [
+  "meal": [
+    {
+      "id": "1",
+      "userId": 3,
+      "consumedFoods": [
         {
-            "id": 1,
-            "userId": 3,
-            "consumedFoods": [
-                {
-                    "foodName": "Rice",
-                    "amount": 150,
-                    "unit": "g",
-                    "calories": 129
-                },
-                {
-                    "foodName": "Chicken Breast",
-                    "amount": 200,
-                    "unit": "g",
-                    "calories": 367
-                }
-            ],
-            "timestamp": 1718722200000,
-            "review": "Computing..."
+          "foodName": "Rice",
+          "amount": 150,
+          "unit": "g",
+          "calories": 129
         },
         {
-            "id": 2,
-            "userId": 1,
-            "consumedFoods": [
-                {
-                    "foodName": "Rice",
-                    "amount": 150,
-                    "unit": "g",
-                    "calories": 129
-                },
-                {
-                    "foodName": "Chicken Breast",
-                    "amount": 200,
-                    "unit": "g",
-                    "calories": 367
-                }
-            ],
-            "timestamp": 1718722200000,
-            "review": "Computing..."
-        },
-        {
-            "id": 3,
-            "userId": 1,
-            "consumedFoods": [
-                {
-                    "foodName": "Oats",
-                    "amount": 100,
-                    "unit": "g",
-                    "calories": 276
-                },
-                {
-                    "foodName": "Banana",
-                    "amount": 1,
-                    "unit": "pcs",
-                    "calories": 0
-                }
-            ],
-            "timestamp": 1718725800000,
-            "review": "Computing..."
-        },
-        {
-            "id": 4,
-            "userId": 1,
-            "consumedFoods": [
-                {
-                    "foodName": "Salmon",
-                    "amount": 180,
-                    "unit": "g",
-                    "calories": 360
-                },
-                {
-                    "foodName": "Quinoa",
-                    "amount": 120,
-                    "unit": "g",
-                    "calories": 0
-                }
-            ],
-            "timestamp": 1718733000000,
-            "review": "Computing..."
-        },
-        {
-            "id": 5,
-            "userId": 2,
-            "consumedFoods": [
-                {
-                    "foodName": "Eggs",
-                    "amount": 3,
-                    "unit": "pcs",
-                    "calories": 78
-                },
-                {
-                    "foodName": "Toast",
-                    "amount": 2,
-                    "unit": "slices",
-                    "calories": 140
-                }
-            ],
-            "timestamp": 1718736000000,
-            "review": "Computing..."
-        },
-        {
-            "id": 6,
-            "userId": 3,
-            "consumedFoods": [
-                {
-                    "foodName": "Granola",
-                    "amount": 50,
-                    "unit": "g",
-                    "calories": 0
-                },
-                {
-                    "foodName": "Greek Yogurt",
-                    "amount": 150,
-                    "unit": "g",
-                    "calories": 100
-                }
-            ],
-            "timestamp": 1718739600000,
-            "review": "Computing..."
-        },
-        {
-            "id": 7,
-            "userId": 4,
-            "consumedFoods": [
-                {
-                    "foodName": "Steak",
-                    "amount": 250,
-                    "unit": "g",
-                    "calories": 725
-                },
-                {
-                    "foodName": "Mashed Potatoes",
-                    "amount": 200,
-                    "unit": "g",
-                    "calories": 164
-                }
-            ],
-            "timestamp": 1718743200000,
-            "review": "Computing..."
-        },
-        {
-            "id": 8,
-            "userId": 5,
-            "consumedFoods": [
-                {
-                    "foodName": "Whole Wheat Pasta",
-                    "amount": 150,
-                    "unit": "g",
-                    "calories": 378
-                },
-                {
-                    "foodName": "Tuna",
-                    "amount": 100,
-                    "unit": "g",
-                    "calories": 0
-                }
-            ],
-            "timestamp": 1718746800000,
-            "review": "Computing..."
-        },
-        {
-            "id": 9,
-            "userId": 6,
-            "consumedFoods": [
-                {
-                    "foodName": "Toast",
-                    "amount": 1,
-                    "unit": "slices",
-                    "calories": 0
-                },
-                {
-                    "foodName": "Avocado",
-                    "amount": 1,
-                    "unit": "pcs",
-                    "calories": 322
-                }
-            ],
-            "timestamp": 1718750400000,
-            "review": "Computing..."
-        },
-        {
-            "id": 10,
-            "userId": 7,
-            "consumedFoods": [
-                {
-                    "foodName": "Turkey Breast",
-                    "amount": 180,
-                    "unit": "g",
-                    "calories": 296
-                },
-                {
-                    "foodName": "Sweet Potato",
-                    "amount": 160,
-                    "unit": "g",
-                    "calories": 105
-                }
-            ],
-            "timestamp": 1718754000000,
-            "review": "Computing..."
-        },
-        {
-            "id": 11,
-            "userId": 8,
-            "consumedFoods": [
-                {
-                    "foodName": "Cottage Cheese",
-                    "amount": 200,
-                    "unit": "g",
-                    "calories": 0
-                },
-                {
-                    "foodName": "Apple",
-                    "amount": 1,
-                    "unit": "pcs",
-                    "calories": 52
-                }
-            ],
-            "timestamp": 1718757600000,
-            "review": "Computing..."
-        },
-        {
-            "id": 12,
-            "userId": 9,
-            "consumedFoods": [
-                {
-                    "foodName": "Maple Syrup",
-                    "amount": 30,
-                    "unit": "ml",
-                    "calories": 0
-                },
-                {
-                    "foodName": "Pancakes",
-                    "amount": 3,
-                    "unit": "pcs",
-                    "calories": 0
-                }
-            ],
-            "timestamp": 1718761200000,
-            "review": "Computing..."
-        },
-        {
-            "id": 13,
-            "userId": 10,
-            "consumedFoods": [
-                {
-                    "foodName": "Banana",
-                    "amount": 1,
-                    "unit": "pcs",
-                    "calories": 0
-                },
-                {
-                    "foodName": "Protein Shake",
-                    "amount": 1,
-                    "unit": "serving",
-                    "calories": 0
-                }
-            ],
-            "timestamp": 1718764800000,
-            "review": "Computing..."
-        },
-        {
-            "id": 14,
-            "userId": 2,
-            "consumedFoods": [
-                {
-                    "foodName": "Eggs",
-                    "amount": 3,
-                    "unit": "pcs",
-                    "calories": 78
-                },
-                {
-                    "foodName": "Toast",
-                    "amount": 2,
-                    "unit": "slices",
-                    "calories": 140
-                }
-            ],
-            "timestamp": 1718736000000,
-            "review": "Computing..."
-        },
-        {
-            "id": 15,
-            "userId": 2,
-            "consumedFoods": [
-                {
-                    "foodName": "Rice",
-                    "amount": 150,
-                    "unit": "g",
-                    "calories": 129
-                },
-                {
-                    "foodName": "Chicken Breast",
-                    "amount": 200,
-                    "unit": "g",
-                    "calories": 367
-                }
-            ],
-            "timestamp": 1718743200000,
-            "review": "Computing..."
-        },
-        {
-            "id": 16,
-            "userId": 2,
-            "consumedFoods": [
-                {
-                    "foodName": "Salmon",
-                    "amount": 180,
-                    "unit": "g",
-                    "calories": 360
-                },
-                {
-                    "foodName": "Broccoli",
-                    "amount": 100,
-                    "unit": "g",
-                    "calories": 0
-                }
-            ],
-            "timestamp": 1718750400000,
-            "review": "Computing..."
-        },
-        {
-            "id": 17,
-            "userId": 3,
-            "consumedFoods": [
-                {
-                    "foodName": "Oats",
-                    "amount": 100,
-                    "unit": "g",
-                    "calories": 276
-                },
-                {
-                    "foodName": "Milk",
-                    "amount": 200,
-                    "unit": "ml",
-                    "calories": 0
-                }
-            ],
-            "timestamp": 1718739600000,
-            "review": "Computing..."
-        },
-        {
-            "id": 18,
-            "userId": 3,
-            "consumedFoods": [
-                {
-                    "foodName": "Quinoa",
-                    "amount": 150,
-                    "unit": "g",
-                    "calories": 420
-                },
-                {
-                    "foodName": "Beef",
-                    "amount": 250,
-                    "unit": "g",
-                    "calories": 0
-                }
-            ],
-            "timestamp": 1718746800000,
-            "review": "Computing..."
-        },
-        {
-            "id": 19,
-            "userId": 3,
-            "consumedFoods": [
-                {
-                    "foodName": "Whole Wheat Bread",
-                    "amount": 2,
-                    "unit": "slices",
-                    "calories": 119
-                },
-                {
-                    "foodName": "Tuna",
-                    "amount": 100,
-                    "unit": "g",
-                    "calories": 0
-                }
-            ],
-            "timestamp": 1718754000000,
-            "review": "Computing..."
-        },
-        {
-            "id": 20,
-            "userId": 4,
-            "consumedFoods": [
-                {
-                    "foodName": "Granola",
-                    "amount": 50,
-                    "unit": "g",
-                    "calories": 0
-                },
-                {
-                    "foodName": "Greek Yogurt",
-                    "amount": 150,
-                    "unit": "g",
-                    "calories": 100
-                }
-            ],
-            "timestamp": 1718736000000,
-            "review": "Computing..."
+          "foodName": "Chicken Breast",
+          "amount": 200,
+          "unit": "g",
+          "calories": 367
         }
-    ],
-    "user": [
+      ],
+      "timestamp": 1718722200000,
+      "review": "Computing..."
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "consumedFoods": [
         {
-            "id": 1,
-            "firstName": "Pesho",
-            "age": 0,
-            "height": 0,
-            "weight": 0,
-            "recommendedCal": 0
+          "foodName": "Rice",
+          "amount": 150,
+          "unit": "g",
+          "calories": 129
         },
         {
-            "id": 2,
-            "firstName": "Gosho",
-            "age": 0,
-            "height": 0,
-            "weight": 0,
-            "recommendedCal": 0
-        },
-        {
-            "id": 3,
-            "firstName": "Tosho",
-            "age": 22,
-            "height": 182,
-            "weight": 85,
-            "recommendedCal": 2600
-        },
-        {
-            "id": 4,
-            "firstName": "Tosho",
-            "age": 22,
-            "height": 182,
-            "weight": 85,
-            "recommendedCal": 2600
-        },
-        {
-            "id": 5,
-            "firstName": "Ivan",
-            "age": 27,
-            "height": 175,
-            "weight": 78,
-            "recommendedCal": 2500
-        },
-        {
-            "id": 6,
-            "firstName": "Mira",
-            "age": 30,
-            "height": 168,
-            "weight": 62,
-            "recommendedCal": 2100
-        },
-        {
-            "id": 7,
-            "firstName": "Niki",
-            "age": 35,
-            "height": 180,
-            "weight": 90,
-            "recommendedCal": 2800
-        },
-        {
-            "id": 8,
-            "firstName": "Elena",
-            "age": 24,
-            "height": 165,
-            "weight": 55,
-            "recommendedCal": 2000
-        },
-        {
-            "id": 9,
-            "firstName": "Georgi",
-            "age": 40,
-            "height": 178,
-            "weight": 88,
-            "recommendedCal": 2700
-        },
-        {
-            "id": 10,
-            "firstName": "Kristina",
-            "age": 29,
-            "height": 170,
-            "weight": 60,
-            "recommendedCal": 2200
+          "foodName": "Chicken Breast",
+          "amount": 200,
+          "unit": "g",
+          "calories": 367
         }
-    ],
-    "food": [
+      ],
+      "timestamp": 1718722200000,
+      "review": "Computing..."
+    },
+    {
+      "id": "3",
+      "userId": 1,
+      "consumedFoods": [
         {
-            "id": 1,
-            "name": "Chicken Breast"
+          "foodName": "Oats",
+          "amount": 100,
+          "unit": "g",
+          "calories": 276
         },
         {
-            "id": 2,
-            "name": "Rice"
-        },
-        {
-            "id": 3,
-            "name": "Oats"
-        },
-        {
-            "id": 4,
-            "name": "Banana"
-        },
-        {
-            "id": 5,
-            "name": "Salmon"
-        },
-        {
-            "id": 6,
-            "name": "Quinoa"
-        },
-        {
-            "id": 7,
-            "name": "Eggs"
-        },
-        {
-            "id": 8,
-            "name": "Toast"
-        },
-        {
-            "id": 11,
-            "name": "Steak"
-        },
-        {
-            "id": 12,
-            "name": "Mashed Potatoes"
-        },
-        {
-            "id": 9,
-            "name": "Greek Yogurt"
-        },
-        {
-            "id": 10,
-            "name": "Granola"
-        },
-        {
-            "id": 13,
-            "name": "Tuna"
-        },
-        {
-            "id": 14,
-            "name": "Whole Wheat Pasta"
-        },
-        {
-            "id": 16,
-            "name": "Turkey Breast"
-        },
-        {
-            "id": 17,
-            "name": "Sweet Potato"
-        },
-        {
-            "id": 18,
-            "name": "Cottage Cheese"
-        },
-        {
-            "id": 19,
-            "name": "Apple"
-        },
-        {
-            "id": 20,
-            "name": "Pancakes"
-        },
-        {
-            "id": 21,
-            "name": "Maple Syrup"
-        },
-        {
-            "id": 22,
-            "name": "Protein Shake"
-        },
-        {
-            "id": 23,
-            "name": "Broccoli"
-        },
-        {
-            "id": 24,
-            "name": "Milk"
-        },
-        {
-            "id": 25,
-            "name": "Beef"
-        },
-        {
-            "id": 26,
-            "name": "Whole Wheat Bread"
-        },
-        {
-            "id": 27,
-            "name": "Turkey"
-        },
-        {
-            "id": 28,
-            "name": "Couscous"
-        },
-        {
-            "id": 29,
-            "name": "Peanut Butter"
-        },
-        {
-            "id": 30,
-            "name": "Lentils"
-        },
-        {
-            "id": 31,
-            "name": "Spinach"
-        },
-        {
-            "id": 32,
-            "name": "Almonds"
-        },
-        {
-            "id": 33,
-            "name": "Scrambled Eggs"
-        },
-        {
-            "id": 15,
-            "name": "Avocado"
-        },
-        {
-            "id": 34,
-            "name": "Chicken Thigh"
-        },
-        {
-            "id": 35,
-            "name": "Yogurt"
-        },
-        {
-            "id": 36,
-            "name": "Berries"
-        },
-        {
-            "id": 37,
-            "name": "Whey Protein"
-        },
-        {
-            "id": 38,
-            "name": "Tilapia"
-        },
-        {
-            "id": 39,
-            "name": "Brown Rice"
-        },
-        {
-            "id": 40,
-            "name": "Butter"
-        },
-        {
-            "id": 41,
-            "name": "Roast Beef"
-        },
-        {
-            "id": 42,
-            "name": "Potatoes"
-        },
-        {
-            "id": 43,
-            "name": "Orange"
-        },
-        {
-            "id": 44,
-            "name": "Walnuts"
-        },
-        {
-            "id": 45,
-            "name": "Chia Pudding"
-        },
-        {
-            "id": 46,
-            "name": "Blueberries"
-        },
-        {
-            "id": 47,
-            "name": "Baked Chicken"
-        },
-        {
-            "id": 48,
-            "name": "Zucchini"
-        },
-        {
-            "id": 49,
-            "name": "Smoothie"
-        },
-        {
-            "id": 50,
-            "name": "Carrots"
-        },
-        {
-            "id": 51,
-            "name": "Protein Bar"
-        },
-        {
-            "id": 52,
-            "name": "Coffee"
-        },
-        {
-            "id": 53,
-            "name": "Duck"
-        },
-        {
-            "id": 54,
-            "name": "Polenta"
-        },
-        {
-            "id": 55,
-            "name": "Boiled Eggs"
+          "foodName": "Banana",
+          "amount": 1,
+          "unit": "pcs",
+          "calories": 0
         }
-    ]
+      ],
+      "timestamp": 1718725800000,
+      "review": "Computing..."
+    },
+    {
+      "id": "4",
+      "userId": 1,
+      "consumedFoods": [
+        {
+          "foodName": "Salmon",
+          "amount": 180,
+          "unit": "g",
+          "calories": 360
+        },
+        {
+          "foodName": "Quinoa",
+          "amount": 120,
+          "unit": "g",
+          "calories": 0
+        }
+      ],
+      "timestamp": 1718733000000,
+      "review": "Computing..."
+    },
+    {
+      "id": "5",
+      "userId": 2,
+      "consumedFoods": [
+        {
+          "foodName": "Eggs",
+          "amount": 3,
+          "unit": "pcs",
+          "calories": 78
+        },
+        {
+          "foodName": "Toast",
+          "amount": 2,
+          "unit": "slices",
+          "calories": 140
+        }
+      ],
+      "timestamp": 1718736000000,
+      "review": "Computing..."
+    },
+    {
+      "id": "6",
+      "userId": 3,
+      "consumedFoods": [
+        {
+          "foodName": "Granola",
+          "amount": 50,
+          "unit": "g",
+          "calories": 0
+        },
+        {
+          "foodName": "Greek Yogurt",
+          "amount": 150,
+          "unit": "g",
+          "calories": 100
+        }
+      ],
+      "timestamp": 1718739600000,
+      "review": "Computing..."
+    },
+    {
+      "id": "7",
+      "userId": 4,
+      "consumedFoods": [
+        {
+          "foodName": "Steak",
+          "amount": 250,
+          "unit": "g",
+          "calories": 725
+        },
+        {
+          "foodName": "Mashed Potatoes",
+          "amount": 200,
+          "unit": "g",
+          "calories": 164
+        }
+      ],
+      "timestamp": 1718743200000,
+      "review": "Computing..."
+    },
+    {
+      "id": "8",
+      "userId": 5,
+      "consumedFoods": [
+        {
+          "foodName": "Whole Wheat Pasta",
+          "amount": 150,
+          "unit": "g",
+          "calories": 378
+        },
+        {
+          "foodName": "Tuna",
+          "amount": 100,
+          "unit": "g",
+          "calories": 0
+        }
+      ],
+      "timestamp": 1718746800000,
+      "review": "Computing..."
+    },
+    {
+      "id": "9",
+      "userId": 6,
+      "consumedFoods": [
+        {
+          "foodName": "Toast",
+          "amount": 1,
+          "unit": "slices",
+          "calories": 0
+        },
+        {
+          "foodName": "Avocado",
+          "amount": 1,
+          "unit": "pcs",
+          "calories": 322
+        }
+      ],
+      "timestamp": 1718750400000,
+      "review": "Computing..."
+    },
+    {
+      "id": "10",
+      "userId": 7,
+      "consumedFoods": [
+        {
+          "foodName": "Turkey Breast",
+          "amount": 180,
+          "unit": "g",
+          "calories": 296
+        },
+        {
+          "foodName": "Sweet Potato",
+          "amount": 160,
+          "unit": "g",
+          "calories": 105
+        }
+      ],
+      "timestamp": 1718754000000,
+      "review": "Computing..."
+    },
+    {
+      "id": "11",
+      "userId": 8,
+      "consumedFoods": [
+        {
+          "foodName": "Cottage Cheese",
+          "amount": 200,
+          "unit": "g",
+          "calories": 0
+        },
+        {
+          "foodName": "Apple",
+          "amount": 1,
+          "unit": "pcs",
+          "calories": 52
+        }
+      ],
+      "timestamp": 1718757600000,
+      "review": "Computing..."
+    },
+    {
+      "id": "12",
+      "userId": 9,
+      "consumedFoods": [
+        {
+          "foodName": "Maple Syrup",
+          "amount": 30,
+          "unit": "ml",
+          "calories": 0
+        },
+        {
+          "foodName": "Pancakes",
+          "amount": 3,
+          "unit": "pcs",
+          "calories": 0
+        }
+      ],
+      "timestamp": 1718761200000,
+      "review": "Computing..."
+    },
+    {
+      "id": "13",
+      "userId": 10,
+      "consumedFoods": [
+        {
+          "foodName": "Banana",
+          "amount": 1,
+          "unit": "pcs",
+          "calories": 0
+        },
+        {
+          "foodName": "Protein Shake",
+          "amount": 1,
+          "unit": "serving",
+          "calories": 0
+        }
+      ],
+      "timestamp": 1718764800000,
+      "review": "Computing..."
+    },
+    {
+      "id": "14",
+      "userId": 2,
+      "consumedFoods": [
+        {
+          "foodName": "Eggs",
+          "amount": 3,
+          "unit": "pcs",
+          "calories": 78
+        },
+        {
+          "foodName": "Toast",
+          "amount": 2,
+          "unit": "slices",
+          "calories": 140
+        }
+      ],
+      "timestamp": 1718736000000,
+      "review": "Computing..."
+    },
+    {
+      "id": "15",
+      "userId": 2,
+      "consumedFoods": [
+        {
+          "foodName": "Rice",
+          "amount": 150,
+          "unit": "g",
+          "calories": 129
+        },
+        {
+          "foodName": "Chicken Breast",
+          "amount": 200,
+          "unit": "g",
+          "calories": 367
+        }
+      ],
+      "timestamp": 1718743200000,
+      "review": "Computing..."
+    },
+    {
+      "id": "16",
+      "userId": 2,
+      "consumedFoods": [
+        {
+          "foodName": "Salmon",
+          "amount": 180,
+          "unit": "g",
+          "calories": 360
+        },
+        {
+          "foodName": "Broccoli",
+          "amount": 100,
+          "unit": "g",
+          "calories": 0
+        }
+      ],
+      "timestamp": 1718750400000,
+      "review": "Computing..."
+    },
+    {
+      "id": "17",
+      "userId": 3,
+      "consumedFoods": [
+        {
+          "foodName": "Oats",
+          "amount": 100,
+          "unit": "g",
+          "calories": 276
+        },
+        {
+          "foodName": "Milk",
+          "amount": 200,
+          "unit": "ml",
+          "calories": 0
+        }
+      ],
+      "timestamp": 1718739600000,
+      "review": "Computing..."
+    },
+    {
+      "id": "18",
+      "userId": 3,
+      "consumedFoods": [
+        {
+          "foodName": "Quinoa",
+          "amount": 150,
+          "unit": "g",
+          "calories": 420
+        },
+        {
+          "foodName": "Beef",
+          "amount": 250,
+          "unit": "g",
+          "calories": 0
+        }
+      ],
+      "timestamp": 1718746800000,
+      "review": "Computing..."
+    },
+    {
+      "id": "19",
+      "userId": 3,
+      "consumedFoods": [
+        {
+          "foodName": "Whole Wheat Bread",
+          "amount": 2,
+          "unit": "slices",
+          "calories": 119
+        },
+        {
+          "foodName": "Tuna",
+          "amount": 100,
+          "unit": "g",
+          "calories": 0
+        }
+      ],
+      "timestamp": 1718754000000,
+      "review": "Computing..."
+    },
+    {
+      "id": "20",
+      "userId": 4,
+      "consumedFoods": [
+        {
+          "foodName": "Granola",
+          "amount": 50,
+          "unit": "g",
+          "calories": 0
+        },
+        {
+          "foodName": "Greek Yogurt",
+          "amount": 150,
+          "unit": "g",
+          "calories": 100
+        }
+      ],
+      "timestamp": 1718736000000,
+      "review": "Computing..."
+    },
+    {
+      "id": "985f",
+      "review": "222",
+      "userId": 1,
+      "consumedFoods": [
+        {
+          "foodName": "22",
+          "amount": 22,
+          "unit": "22",
+          "calories": 22
+        }
+      ],
+      "created_at": "7/2/2025"
+    },
+    {
+      "id": "ca6a",
+      "review": "First test meal",
+      "userId": 1,
+      "consumedFoods": [
+        {
+          "foodName": "Tuna My",
+          "amount": 100,
+          "unit": "g",
+          "calories": 145
+        },
+        {
+          "foodName": "",
+          "amount": 0,
+          "unit": "",
+          "calories": 0
+        }
+      ],
+      "created_at": "7/2/2025"
+    },
+    {
+      "id": "b212",
+      "review": "First test meal",
+      "userId": 1,
+      "consumedFoods": [
+        {
+          "foodName": "My Meal",
+          "amount": 100,
+          "unit": "g",
+          "calories": 111
+        },
+        {
+          "foodName": "",
+          "amount": 0,
+          "unit": "",
+          "calories": 0
+        }
+      ],
+      "created_at": "7/2/2025"
+    },
+    {
+      "id": "1608",
+      "review": "First test meal",
+      "userId": 1,
+      "consumedFoods": [
+        {
+          "foodName": "qq",
+          "amount": 111,
+          "unit": "g",
+          "calories": 111
+        },
+        {
+          "foodName": "",
+          "amount": 0,
+          "unit": "",
+          "calories": 0
+        }
+      ],
+      "created_at": "7/2/2025"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "firstName": "Pesho",
+      "age": 0,
+      "height": 0,
+      "weight": 0,
+      "recommendedCal": 0
+    },
+    {
+      "id": "2",
+      "firstName": "Gosho",
+      "age": 0,
+      "height": 0,
+      "weight": 0,
+      "recommendedCal": 0
+    },
+    {
+      "id": "3",
+      "firstName": "Tosho",
+      "age": 22,
+      "height": 182,
+      "weight": 85,
+      "recommendedCal": 2600
+    },
+    {
+      "id": "4",
+      "firstName": "Tosho",
+      "age": 22,
+      "height": 182,
+      "weight": 85,
+      "recommendedCal": 2600
+    },
+    {
+      "id": "5",
+      "firstName": "Ivan",
+      "age": 27,
+      "height": 175,
+      "weight": 78,
+      "recommendedCal": 2500
+    },
+    {
+      "id": "6",
+      "firstName": "Mira",
+      "age": 30,
+      "height": 168,
+      "weight": 62,
+      "recommendedCal": 2100
+    },
+    {
+      "id": "7",
+      "firstName": "Niki",
+      "age": 35,
+      "height": 180,
+      "weight": 90,
+      "recommendedCal": 2800
+    },
+    {
+      "id": "8",
+      "firstName": "Elena",
+      "age": 24,
+      "height": 165,
+      "weight": 55,
+      "recommendedCal": 2000
+    },
+    {
+      "id": "9",
+      "firstName": "Georgi",
+      "age": 40,
+      "height": 178,
+      "weight": 88,
+      "recommendedCal": 2700
+    },
+    {
+      "id": "10",
+      "firstName": "Kristina",
+      "age": 29,
+      "height": 170,
+      "weight": 60,
+      "recommendedCal": 2200
+    }
+  ],
+  "food": [
+    {
+      "id": "1",
+      "name": "Chicken Breast"
+    },
+    {
+      "id": "2",
+      "name": "Rice"
+    },
+    {
+      "id": "3",
+      "name": "Oats"
+    },
+    {
+      "id": "4",
+      "name": "Banana"
+    },
+    {
+      "id": "5",
+      "name": "Salmon"
+    },
+    {
+      "id": "6",
+      "name": "Quinoa"
+    },
+    {
+      "id": "7",
+      "name": "Eggs"
+    },
+    {
+      "id": "8",
+      "name": "Toast"
+    },
+    {
+      "id": "11",
+      "name": "Steak"
+    },
+    {
+      "id": "12",
+      "name": "Mashed Potatoes"
+    },
+    {
+      "id": "9",
+      "name": "Greek Yogurt"
+    },
+    {
+      "id": "10",
+      "name": "Granola"
+    },
+    {
+      "id": "13",
+      "name": "Tuna"
+    },
+    {
+      "id": "14",
+      "name": "Whole Wheat Pasta"
+    },
+    {
+      "id": "16",
+      "name": "Turkey Breast"
+    },
+    {
+      "id": "17",
+      "name": "Sweet Potato"
+    },
+    {
+      "id": "18",
+      "name": "Cottage Cheese"
+    },
+    {
+      "id": "19",
+      "name": "Apple"
+    },
+    {
+      "id": "20",
+      "name": "Pancakes"
+    },
+    {
+      "id": "21",
+      "name": "Maple Syrup"
+    },
+    {
+      "id": "22",
+      "name": "Protein Shake"
+    },
+    {
+      "id": "23",
+      "name": "Broccoli"
+    },
+    {
+      "id": "24",
+      "name": "Milk"
+    },
+    {
+      "id": "25",
+      "name": "Beef"
+    },
+    {
+      "id": "26",
+      "name": "Whole Wheat Bread"
+    },
+    {
+      "id": "27",
+      "name": "Turkey"
+    },
+    {
+      "id": "28",
+      "name": "Couscous"
+    },
+    {
+      "id": "29",
+      "name": "Peanut Butter"
+    },
+    {
+      "id": "30",
+      "name": "Lentils"
+    },
+    {
+      "id": "31",
+      "name": "Spinach"
+    },
+    {
+      "id": "32",
+      "name": "Almonds"
+    },
+    {
+      "id": "33",
+      "name": "Scrambled Eggs"
+    },
+    {
+      "id": "15",
+      "name": "Avocado"
+    },
+    {
+      "id": "34",
+      "name": "Chicken Thigh"
+    },
+    {
+      "id": "35",
+      "name": "Yogurt"
+    },
+    {
+      "id": "36",
+      "name": "Berries"
+    },
+    {
+      "id": "37",
+      "name": "Whey Protein"
+    },
+    {
+      "id": "38",
+      "name": "Tilapia"
+    },
+    {
+      "id": "39",
+      "name": "Brown Rice"
+    },
+    {
+      "id": "40",
+      "name": "Butter"
+    },
+    {
+      "id": "41",
+      "name": "Roast Beef"
+    },
+    {
+      "id": "42",
+      "name": "Potatoes"
+    },
+    {
+      "id": "43",
+      "name": "Orange"
+    },
+    {
+      "id": "44",
+      "name": "Walnuts"
+    },
+    {
+      "id": "45",
+      "name": "Chia Pudding"
+    },
+    {
+      "id": "46",
+      "name": "Blueberries"
+    },
+    {
+      "id": "47",
+      "name": "Baked Chicken"
+    },
+    {
+      "id": "48",
+      "name": "Zucchini"
+    },
+    {
+      "id": "49",
+      "name": "Smoothie"
+    },
+    {
+      "id": "50",
+      "name": "Carrots"
+    },
+    {
+      "id": "51",
+      "name": "Protein Bar"
+    },
+    {
+      "id": "52",
+      "name": "Coffee"
+    },
+    {
+      "id": "53",
+      "name": "Duck"
+    },
+    {
+      "id": "54",
+      "name": "Polenta"
+    },
+    {
+      "id": "55",
+      "name": "Boiled Eggs"
+    }
+  ]
 }

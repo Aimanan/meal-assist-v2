@@ -9,6 +9,7 @@ import { Meal } from "./pages/Meal/Meal";
 import { MealCreate } from "./pages/MealCreate/MealCreate.jsx";
 import { User } from "./pages/User/User";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { UserBrowse } from "./pages/UserBrowse/UserBrowse.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -17,9 +18,12 @@ createRoot(document.getElementById("root")).render(
         <Routes>
           <Route path="/" element={<App />}>
             <Route path="/" element={<MealBrowse />} />
-            <Route path="/meal/:id" element={<Meal />} />
+            <Route path="/meal/:mealId" element={<Meal />} />
             <Route path="/meal/new" element={<MealCreate />} />
-            <Route path="/user" element={<User />} />
+            <Route path="/user" element={<UserBrowse />} />
+            <Route path="/user/:userId" element={<User />} />
+
+            {/* <Route path="/food" element={<Food />} /> */}
           </Route>
         </Routes>
       </BrowserRouter>
