@@ -9,11 +9,6 @@ export function Food(props) {
     store.foods.foodList.find((food) => food.id === foodId)
   );
 
-  //   const { userId } = useParams();
-  //   const user = useSelector((store) =>
-  //     store.users.userList.find((user) => user.id === userId)
-  //   );
-
   const [isEditable, setIsEditable] = useState(false);
 
   const submit = (formValues) => {

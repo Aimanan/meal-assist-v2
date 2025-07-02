@@ -16,7 +16,7 @@ export function MealList() {
             id={meal.id}
             userId={meal.userId}
             consumedFoods={meal.consumedFoods}
-            foodList={foodList} // ✅ pass foodList
+            foodList={foodList}
             timestamp={meal.timestamp}
             review={meal.review}
             onClickTrash={() => alert("onClickTrash()")}

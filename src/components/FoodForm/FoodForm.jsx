@@ -17,6 +17,8 @@ export function FoodForm({ isEditable = true, food, onSubmit = {} }) {
     generalInfo: food?.generalInfo || {},
   });
 
+  //TODO: update, delete?
+
   //   const updateFormValues = (e) => {
   //     const name = e.target.name;
   //     const value = e.target.value;
