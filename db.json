@@ -1,1268 +1,1288 @@
 {
-    "meal": [
+  "meal": [
+    {
+      "id": "1",
+      "userId": 3,
+      "consumedFoods": [
         {
-            "id": "1",
-            "userId": 3,
-            "consumedFoods": [
-                {
-                    "foodName": "Rice",
-                    "amount": 150,
-                    "unit": "g",
-                    "calories": 129
-                },
-                {
-                    "foodName": "Chicken Breast",
-                    "amount": 200,
-                    "unit": "g",
-                    "calories": 367
-                }
-            ],
-            "timestamp": 1718722200000,
-            "review": "Savory Citrus Chicken & Fluffy Rice"
+          "foodName": "Rice",
+          "amount": 150,
+          "unit": "g",
+          "calories": 129
         },
         {
-            "id": "2",
-            "userId": 1,
-            "consumedFoods": [
-                {
-                    "foodName": "Rice",
-                    "amount": 150,
-                    "unit": "g",
-                    "calories": 129
-                },
-                {
-                    "foodName": "Chicken Breast",
-                    "amount": 200,
-                    "unit": "g",
-                    "calories": 367
-                }
-            ],
-            "timestamp": 1718722200000,
-            "review": "Herb-Roasted Chicken with Jasmine Rice"
-        },
-        {
-            "id": "3",
-            "userId": 1,
-            "consumedFoods": [
-                {
-                    "foodName": "Oats",
-                    "amount": 100,
-                    "unit": "g",
-                    "calories": 276
-                },
-                {
-                    "foodName": "Banana",
-                    "amount": 1,
-                    "unit": "pcs",
-                    "calories": 0
-                }
-            ],
-            "timestamp": 1718725800000,
-            "review": "Golden Sunrise Banana Oatmeal Bowl"
-        },
-        {
-            "id": "4",
-            "userId": 1,
-            "consumedFoods": [
-                {
-                    "foodName": "Salmon",
-                    "amount": 180,
-                    "unit": "g",
-                    "calories": 360
-                },
-                {
-                    "foodName": "Quinoa",
-                    "amount": 120,
-                    "unit": "g",
-                    "calories": 0
-                }
-            ],
-            "timestamp": 1718733000000,
-            "review": "Seared Salmon atop Nutty Quinoa Pilaf"
-        },
-        {
-            "id": "5",
-            "userId": 2,
-            "consumedFoods": [
-                {
-                    "foodName": "Eggs",
-                    "amount": 3,
-                    "unit": "pcs",
-                    "calories": 78
-                },
-                {
-                    "foodName": "Toast",
-                    "amount": 2,
-                    "unit": "slices",
-                    "calories": 140
-                }
-            ],
-            "timestamp": 1718736000000,
-            "review": "Fluffy Scrambled Eggs with Golden Toast Soldiers"
-        },
-        {
-            "id": "6",
-            "userId": 3,
-            "consumedFoods": [
-                {
-                    "foodName": "Granola",
-                    "amount": 50,
-                    "unit": "g",
-                    "calories": 0
-                },
-                {
-                    "foodName": "Greek Yogurt",
-                    "amount": 150,
-                    "unit": "g",
-                    "calories": 100
-                }
-            ],
-            "timestamp": 1718739600000,
-            "review": "Crunchy Honey Granola & Creamy Greek Yogurt"
-        },
-        {
-            "id": "7",
-            "userId": 4,
-            "consumedFoods": [
-                {
-                    "foodName": "Steak",
-                    "amount": 250,
-                    "unit": "g",
-                    "calories": 725
-                },
-                {
-                    "foodName": "Mashed Potatoes",
-                    "amount": 200,
-                    "unit": "g",
-                    "calories": 164
-                }
-            ],
-            "timestamp": 1718743200000,
-            "review": "Juicy Peppercorn Steak with Velvet Mashed Potatoes"
-        },
-        {
-            "id": "8",
-            "userId": 5,
-            "consumedFoods": [
-                {
-                    "foodName": "Whole Wheat Pasta",
-                    "amount": 150,
-                    "unit": "g",
-                    "calories": 378
-                },
-                {
-                    "foodName": "Tuna",
-                    "amount": 100,
-                    "unit": "g",
-                    "calories": 0
-                }
-            ],
-            "timestamp": 1718746800000,
-            "review": "Mediterranean Tuna & Whole Wheat Pasta Delight"
-        },
-        {
-            "id": "9",
-            "userId": 6,
-            "consumedFoods": [
-                {
-                    "foodName": "Toast",
-                    "amount": 1,
-                    "unit": "slices",
-                    "calories": 0
-                },
-                {
-                    "foodName": "Avocado",
-                    "amount": 1,
-                    "unit": "pcs",
-                    "calories": 322
-                }
-            ],
-            "timestamp": 1718750400000,
-            "review": "Creamy Avocado Smash on Rustic Toast"
-        },
-        {
-            "id": "10",
-            "userId": 7,
-            "consumedFoods": [
-                {
-                    "foodName": "Turkey Breast",
-                    "amount": 180,
-                    "unit": "g",
-                    "calories": 296
-                },
-                {
-                    "foodName": "Sweet Potato",
-                    "amount": 160,
-                    "unit": "g",
-                    "calories": 105
-                }
-            ],
-            "timestamp": 1718754000000,
-            "review": "Roasted Turkey & Honey-Glazed Sweet Potato"
-        },
-        {
-            "id": "11",
-            "userId": 8,
-            "consumedFoods": [
-                {
-                    "foodName": "Cottage Cheese",
-                    "amount": 200,
-                    "unit": "g",
-                    "calories": 0
-                },
-                {
-                    "foodName": "Apple",
-                    "amount": 1,
-                    "unit": "pcs",
-                    "calories": 52
-                }
-            ],
-            "timestamp": 1718757600000,
-            "review": "Fresh Apple Slices with Creamy Cottage Cheese"
-        },
-        {
-            "id": "12",
-            "userId": 9,
-            "consumedFoods": [
-                {
-                    "foodName": "Maple Syrup",
-                    "amount": 30,
-                    "unit": "ml",
-                    "calories": 0
-                },
-                {
-                    "foodName": "Pancakes",
-                    "amount": 3,
-                    "unit": "pcs",
-                    "calories": 0
-                }
-            ],
-            "timestamp": 1718761200000,
-            "review": "Fluffy Pancakes Drizzled with Golden Maple"
-        },
-        {
-            "id": "13",
-            "userId": 10,
-            "consumedFoods": [
-                {
-                    "foodName": "Banana",
-                    "amount": 1,
-                    "unit": "pcs",
-                    "calories": 0
-                },
-                {
-                    "foodName": "Protein Shake",
-                    "amount": 1,
-                    "unit": "serving",
-                    "calories": 0
-                }
-            ],
-            "timestamp": 1718764800000,
-            "review": "Power-Packed Banana & Protein Boost"
-        },
-        {
-            "id": "14",
-            "userId": 2,
-            "consumedFoods": [
-                {
-                    "foodName": "Eggs",
-                    "amount": 3,
-                    "unit": "pcs",
-                    "calories": 78
-                },
-                {
-                    "foodName": "Toast",
-                    "amount": 2,
-                    "unit": "slices",
-                    "calories": 140
-                }
-            ],
-            "timestamp": 1718736000000,
-            "review": "Fluffy Scrambled Eggs with Golden Toast Soldiers"
-        },
-        {
-            "id": "15",
-            "userId": 2,
-            "consumedFoods": [
-                {
-                    "foodName": "Rice",
-                    "amount": 150,
-                    "unit": "g",
-                    "calories": 129
-                },
-                {
-                    "foodName": "Chicken Breast",
-                    "amount": 200,
-                    "unit": "g",
-                    "calories": 367
-                }
-            ],
-            "timestamp": 1718743200000,
-            "review": "Herb-Roasted Chicken with Jasmine Rice"
-        },
-        {
-            "id": "16",
-            "userId": 2,
-            "consumedFoods": [
-                {
-                    "foodName": "Salmon",
-                    "amount": 180,
-                    "unit": "g",
-                    "calories": 360
-                },
-                {
-                    "foodName": "Broccoli",
-                    "amount": 100,
-                    "unit": "g",
-                    "calories": 0
-                }
-            ],
-            "timestamp": 1718750400000,
-            "review": "Lemon-Dusted Salmon with Tender Broccoli"
-        },
-        {
-            "id": "17",
-            "userId": 3,
-            "consumedFoods": [
-                {
-                    "foodName": "Oats",
-                    "amount": 100,
-                    "unit": "g",
-                    "calories": 276
-                },
-                {
-                    "foodName": "Milk",
-                    "amount": 200,
-                    "unit": "ml",
-                    "calories": 0
-                }
-            ],
-            "timestamp": 1718739600000,
-            "review": "Creamy Morning Oats with Fresh Milk"
-        },
-        {
-            "id": "18",
-            "userId": 3,
-            "consumedFoods": [
-                {
-                    "foodName": "Quinoa",
-                    "amount": 150,
-                    "unit": "g",
-                    "calories": 420
-                },
-                {
-                    "foodName": "Beef",
-                    "amount": 200,
-                    "unit": "g",
-                    "calories": 500
-                }
-            ],
-            "timestamp": 1718746800000,
-            "review": "Spiced Beef over Nutty Quinoa"
-        },
-        {
-            "id": "19",
-            "userId": 4,
-            "consumedFoods": [
-                {
-                    "foodName": "Salad",
-                    "amount": 150,
-                    "unit": "g",
-                    "calories": 50
-                },
-                {
-                    "foodName": "Grilled Chicken",
-                    "amount": 180,
-                    "unit": "g",
-                    "calories": 330
-                }
-            ],
-            "timestamp": 1718754000000,
-            "review": "Garden Fresh Salad with Char-Grilled Chicken"
-        },
-        {
-            "id": "20",
-            "userId": 5,
-            "consumedFoods": [
-                {
-                    "foodName": "Pasta",
-                    "amount": 200,
-                    "unit": "g",
-                    "calories": 250
-                },
-                {
-                    "foodName": "Tomato Sauce",
-                    "amount": 100,
-                    "unit": "g",
-                    "calories": 50
-                }
-            ],
-            "timestamp": 1718757600000,
-            "review": "Rustic Pasta Tossed in Tangy Tomato Sauce"
+          "foodName": "Chicken Breast",
+          "amount": 200,
+          "unit": "g",
+          "calories": 367
         }
-    ],
-    "user": [
+      ],
+      "timestamp": 1718722200000,
+      "review": "Savory Citrus Chicken & Fluffy Rice"
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "consumedFoods": [
         {
-            "id": "1",
-            "firstName": "Pesho",
-            "age": 0,
-            "height": 0,
-            "weight": 0,
-            "recommendedCal": 0
+          "foodName": "Rice",
+          "amount": 150,
+          "unit": "g",
+          "calories": 129
         },
         {
-            "id": "2",
-            "firstName": "Gosho",
-            "age": 0,
-            "height": 0,
-            "weight": 0,
-            "recommendedCal": 0
-        },
-        {
-            "id": "3",
-            "firstName": "Tosho",
-            "age": 22,
-            "height": 182,
-            "weight": 85,
-            "recommendedCal": 2600
-        },
-        {
-            "id": "4",
-            "firstName": "Tosho",
-            "age": 22,
-            "height": 182,
-            "weight": 85,
-            "recommendedCal": 2600
-        },
-        {
-            "id": "5",
-            "firstName": "Ivan",
-            "age": 27,
-            "height": 175,
-            "weight": 78,
-            "recommendedCal": 2500
-        },
-        {
-            "id": "6",
-            "firstName": "Mira",
-            "age": 30,
-            "height": 168,
-            "weight": 62,
-            "recommendedCal": 2100
-        },
-        {
-            "id": "7",
-            "firstName": "Niki",
-            "age": 35,
-            "height": 180,
-            "weight": 90,
-            "recommendedCal": 2800
-        },
-        {
-            "id": "8",
-            "firstName": "Elena",
-            "age": 24,
-            "height": 165,
-            "weight": 55,
-            "recommendedCal": 2000
-        },
-        {
-            "id": "9",
-            "firstName": "Georgi",
-            "age": 40,
-            "height": 178,
-            "weight": 88,
-            "recommendedCal": 2700
-        },
-        {
-            "id": "10",
-            "firstName": "Kristina",
-            "age": 29,
-            "height": 170,
-            "weight": 60,
-            "recommendedCal": 2200
+          "foodName": "Chicken Breast",
+          "amount": 200,
+          "unit": "g",
+          "calories": 367
         }
-    ],
-    "food": [
+      ],
+      "timestamp": 1718722200000,
+      "review": "Herb-Roasted Chicken with Jasmine Rice"
+    },
+    {
+      "id": "3",
+      "userId": 1,
+      "consumedFoods": [
         {
-            "id": "1",
-            "name": "Chicken Breast",
-            "calories": 184,
-            "content": "per 100g cooked",
-            "totalFat": {
-                "total": 3.6,
-                "saturated": 1,
-                "trans": 0
-            },
-            "sodium": 74,
-            "totalCarbohydrates": {
-                "total": 0,
-                "fiber": 0,
-                "sugars": 0
-            },
-            "protein": 31,
-            "vitamins": {
-                "B6": "0.6 mg",
-                "B12": "0.3 µg"
-            },
-            "generalInfo": {
-                "description": "Lean source of high-quality protein, low in fat.",
-                "healthRecommendations": "Great for muscle building and weight management. Choose grilled or baked preparations to limit added fats."
-            }
+          "foodName": "Oats",
+          "amount": 100,
+          "unit": "g",
+          "calories": 276
         },
         {
-            "id": "2",
-            "name": "Rice",
-            "calories": 129,
-            "content": "per 150g cooked",
-            "totalFat": {
-                "total": 0.3,
-                "saturated": 0.1,
-                "trans": 0
-            },
-            "sodium": 1,
-            "totalCarbohydrates": {
-                "total": 28,
-                "fiber": 0.4,
-                "sugars": 0.1
-            },
-            "protein": 2.7,
-            "vitamins": {
-                "Thiamin": "0.07 mg",
-                "Niacin": "1.2 mg"
-            },
-            "generalInfo": {
-                "description": "A staple carbohydrate source providing energy.",
-                "healthRecommendations": "Opt for whole grain or brown rice for added fiber and nutrients."
-            }
-        },
-        {
-            "id": "3",
-            "name": "Oats",
-            "calories": 276,
-            "content": "per 100g raw",
-            "totalFat": {
-                "total": 6,
-                "saturated": 1.1,
-                "trans": 0
-            },
-            "sodium": 2,
-            "totalCarbohydrates": {
-                "total": 46,
-                "fiber": 8,
-                "sugars": 0.4
-            },
-            "protein": 11,
-            "vitamins": {
-                "B1": "0.8 mg",
-                "B5": "1.1 mg"
-            },
-            "generalInfo": {
-                "description": "Whole grain rich in soluble fiber and protein.",
-                "healthRecommendations": "Helps lower cholesterol and supports heart health. Great for sustained energy."
-            }
-        },
-        {
-            "id": "4",
-            "name": "Banana",
-            "calories": 89,
-            "content": "per 100g",
-            "totalFat": {
-                "total": 0.3,
-                "saturated": 0.1,
-                "trans": 0
-            },
-            "sodium": 1,
-            "totalCarbohydrates": {
-                "total": 23,
-                "fiber": 2.6,
-                "sugars": 12
-            },
-            "protein": 1.1,
-            "vitamins": {
-                "C": "8.7 mg",
-                "B6": "0.4 mg"
-            },
-            "generalInfo": {
-                "description": "Rich in potassium and natural sugars for quick energy.",
-                "healthRecommendations": "Good pre- or post-workout snack. Consume in moderation if monitoring sugar intake."
-            }
-        },
-        {
-            "id": "5",
-            "name": "Salmon",
-            "calories": 200,
-            "content": "per 100g cooked",
-            "totalFat": {
-                "total": 13,
-                "saturated": 3,
-                "trans": 0
-            },
-            "sodium": 59,
-            "totalCarbohydrates": {
-                "total": 0,
-                "fiber": 0,
-                "sugars": 0
-            },
-            "protein": 22,
-            "vitamins": {
-                "D": "11 µg",
-                "B12": "3.2 µg"
-            },
-            "generalInfo": {
-                "description": "Rich in omega-3 fatty acids and high-quality protein.",
-                "healthRecommendations": "Supports heart and brain health. Prefer wild-caught for better nutrient profile."
-            }
-        },
-        {
-            "id": "6",
-            "name": "Quinoa",
-            "calories": 222,
-            "content": "per 185g cooked",
-            "totalFat": {
-                "total": 3.6,
-                "saturated": 0.4,
-                "trans": 0
-            },
-            "sodium": 13,
-            "totalCarbohydrates": {
-                "total": 39,
-                "fiber": 5,
-                "sugars": 1.6
-            },
-            "protein": 8,
-            "vitamins": {
-                "B6": "0.1 mg",
-                "Folate": "77 µg"
-            },
-            "generalInfo": {
-                "description": "Gluten-free pseudo-grain high in protein and fiber.",
-                "healthRecommendations": "Good plant-based protein source; aids digestion and sustained energy."
-            }
-        },
-        {
-            "id": "7",
-            "name": "Eggs",
-            "calories": 78,
-            "content": "per large egg (50g)",
-            "totalFat": {
-                "total": 5,
-                "saturated": 1.6,
-                "trans": 0
-            },
-            "sodium": 62,
-            "totalCarbohydrates": {
-                "total": 0.6,
-                "fiber": 0,
-                "sugars": 0.5
-            },
-            "protein": 6,
-            "vitamins": {
-                "B12": "0.6 µg",
-                "D": "1 µg"
-            },
-            "generalInfo": {
-                "description": "Complete protein with essential amino acids and healthy fats.",
-                "healthRecommendations": "Supports muscle and brain health. Moderate intake recommended for cholesterol-sensitive individuals."
-            }
-        },
-        {
-            "id": "8",
-            "name": "Toast",
-            "calories": 70,
-            "content": "per slice (white bread)",
-            "totalFat": {
-                "total": 1,
-                "saturated": 0.2,
-                "trans": 0
-            },
-            "sodium": 130,
-            "totalCarbohydrates": {
-                "total": 13,
-                "fiber": 0.5,
-                "sugars": 1.5
-            },
-            "protein": 2,
-            "vitamins": {
-                "B1": "0.1 mg",
-                "Folate": "17 µg"
-            },
-            "generalInfo": {
-                "description": "Refined carbohydrate; source of quick energy.",
-                "healthRecommendations": "Choose whole grain varieties to increase fiber and nutrients."
-            }
-        },
-        {
-            "id": "9",
-            "name": "Greek Yogurt",
-            "calories": 59,
-            "content": "per 100g",
-            "totalFat": {
-                "total": 0.4,
-                "saturated": 0.1,
-                "trans": 0
-            },
-            "sodium": 36,
-            "totalCarbohydrates": {
-                "total": 3.6,
-                "fiber": 0,
-                "sugars": 3.2
-            },
-            "protein": 10,
-            "vitamins": {
-                "B12": "0.75 µg",
-                "Calcium": "110 mg"
-            },
-            "generalInfo": {
-                "description": "Thick yogurt high in protein and probiotics.",
-                "healthRecommendations": "Supports gut health and muscle recovery."
-            }
-        },
-        {
-            "id": "10",
-            "name": "Granola",
-            "calories": 471,
-            "content": "per 100g",
-            "totalFat": {
-                "total": 21,
-                "saturated": 2,
-                "trans": 0
-            },
-            "sodium": 120,
-            "totalCarbohydrates": {
-                "total": 64,
-                "fiber": 7,
-                "sugars": 25
-            },
-            "protein": 10,
-            "vitamins": {
-                "Iron": "4 mg",
-                "Magnesium": "150 mg"
-            },
-            "generalInfo": {
-                "description": "Mix of oats, nuts, and sweeteners; high in calories.",
-                "healthRecommendations": "Consume in moderation due to sugar content; good source of fiber."
-            }
-        },
-        {
-            "id": "11",
-            "name": "Steak",
-            "calories": 290,
-            "content": "per 100g cooked",
-            "totalFat": {
-                "total": 19,
-                "saturated": 8,
-                "trans": 0.5
-            },
-            "sodium": 55,
-            "totalCarbohydrates": {
-                "total": 0,
-                "fiber": 0,
-                "sugars": 0
-            },
-            "protein": 25,
-            "vitamins": {
-                "B12": "2.6 µg",
-                "Iron": "2.7 mg"
-            },
-            "generalInfo": {
-                "description": "Rich in protein, iron, and B vitamins; contains saturated fats.",
-                "healthRecommendations": "Choose lean cuts and limit intake for heart health."
-            }
-        },
-        {
-            "id": "12",
-            "name": "Mashed Potatoes",
-            "calories": 82,
-            "content": "per 100g",
-            "totalFat": {
-                "total": 3,
-                "saturated": 1.5,
-                "trans": 0
-            },
-            "sodium": 220,
-            "totalCarbohydrates": {
-                "total": 15,
-                "fiber": 1.4,
-                "sugars": 0.8
-            },
-            "protein": 1.7,
-            "vitamins": {
-                "C": "8 mg",
-                "B6": "0.2 mg"
-            },
-            "generalInfo": {
-                "description": "Comfort food rich in carbs; often made with butter or cream.",
-                "healthRecommendations": "Limit added fats and salt to reduce calories and sodium."
-            }
-        },
-        {
-            "id": "13",
-            "name": "Spinach",
-            "calories": 23,
-            "content": "per 100g raw",
-            "totalFat": {
-                "total": 0.4,
-                "saturated": 0.06,
-                "trans": 0
-            },
-            "sodium": 79,
-            "totalCarbohydrates": {
-                "total": 3.6,
-                "fiber": 2.2,
-                "sugars": 0.4
-            },
-            "protein": 2.9,
-            "vitamins": {
-                "A": "469 µg",
-                "K": "483 µg"
-            },
-            "generalInfo": {
-                "description": "Leafy green rich in vitamins A, K, and antioxidants.",
-                "healthRecommendations": "Supports eye and bone health; eat fresh or lightly cooked."
-            }
-        },
-        {
-            "id": "14",
-            "name": "Apple",
-            "calories": 52,
-            "content": "per 100g",
-            "totalFat": {
-                "total": 0.2,
-                "saturated": 0.03,
-                "trans": 0
-            },
-            "sodium": 1,
-            "totalCarbohydrates": {
-                "total": 14,
-                "fiber": 2.4,
-                "sugars": 10
-            },
-            "protein": 0.3,
-            "vitamins": {
-                "C": "4.6 mg",
-                "B6": "0.04 mg"
-            },
-            "generalInfo": {
-                "description": "Popular fruit high in fiber and vitamin C.",
-                "healthRecommendations": "Good for digestion and immunity; eat with skin for maximum fiber."
-            }
-        },
-        {
-            "id": "15",
-            "name": "Broccoli",
-            "calories": 34,
-            "content": "per 100g raw",
-            "totalFat": {
-                "total": 0.4,
-                "saturated": 0.04,
-                "trans": 0
-            },
-            "sodium": 33,
-            "totalCarbohydrates": {
-                "total": 7,
-                "fiber": 2.6,
-                "sugars": 1.7
-            },
-            "protein": 2.8,
-            "vitamins": {
-                "C": "89 mg",
-                "K": "101.6 µg"
-            },
-            "generalInfo": {
-                "description": "Cruciferous vegetable high in fiber, vitamins C and K.",
-                "healthRecommendations": "Supports immune system and bone health; best eaten steamed or raw."
-            }
-        },
-        {
-            "id": "16",
-            "name": "Almonds",
-            "calories": 579,
-            "content": "per 100g",
-            "totalFat": {
-                "total": 50,
-                "saturated": 3.7,
-                "trans": 0
-            },
-            "sodium": 1,
-            "totalCarbohydrates": {
-                "total": 22,
-                "fiber": 12,
-                "sugars": 4.4
-            },
-            "protein": 21,
-            "vitamins": {
-                "E": "25.6 mg",
-                "Magnesium": "270 mg"
-            },
-            "generalInfo": {
-                "description": "Nutrient-dense nuts rich in healthy fats and protein.",
-                "healthRecommendations": "Good for heart health and satiety; eat in moderation due to high calories."
-            }
-        },
-        {
-            "id": "17",
-            "name": "Carrots",
-            "calories": 41,
-            "content": "per 100g raw",
-            "totalFat": {
-                "total": 0.2,
-                "saturated": 0.04,
-                "trans": 0
-            },
-            "sodium": 69,
-            "totalCarbohydrates": {
-                "total": 10,
-                "fiber": 2.8,
-                "sugars": 4.7
-            },
-            "protein": 0.9,
-            "vitamins": {
-                "A": "835 µg",
-                "K": "13.2 µg"
-            },
-            "generalInfo": {
-                "description": "Root vegetable high in beta-carotene and fiber.",
-                "healthRecommendations": "Supports vision and skin health; best consumed raw or lightly cooked."
-            }
-        },
-        {
-            "id": "18",
-            "name": "Peanut Butter",
-            "calories": 588,
-            "content": "per 100g",
-            "totalFat": {
-                "total": 50,
-                "saturated": 10,
-                "trans": 0
-            },
-            "sodium": 17,
-            "totalCarbohydrates": {
-                "total": 20,
-                "fiber": 6,
-                "sugars": 9
-            },
-            "protein": 25,
-            "vitamins": {
-                "E": "8.3 mg",
-                "B3": "12 mg"
-            },
-            "generalInfo": {
-                "description": "High-calorie spread rich in fats and protein.",
-                "healthRecommendations": "Choose natural varieties with no added sugar or hydrogenated fats."
-            }
-        },
-        {
-            "id": "19",
-            "name": "Milk",
-            "calories": 42,
-            "content": "per 100ml whole milk",
-            "totalFat": {
-                "total": 1,
-                "saturated": 0.6,
-                "trans": 0
-            },
-            "sodium": 44,
-            "totalCarbohydrates": {
-                "total": 5,
-                "fiber": 0,
-                "sugars": 5
-            },
-            "protein": 3.4,
-            "vitamins": {
-                "D": "1 µg",
-                "B12": "0.5 µg"
-            },
-            "generalInfo": {
-                "description": "Good source of calcium, protein, and vitamins D and B12.",
-                "healthRecommendations": "Supports bone health; choose low-fat options if managing calorie intake."
-            }
-        },
-        {
-            "id": "20",
-            "name": "Sweet Potato",
-            "calories": 86,
-            "content": "per 100g cooked",
-            "totalFat": {
-                "total": 0.1,
-                "saturated": 0,
-                "trans": 0
-            },
-            "sodium": 55,
-            "totalCarbohydrates": {
-                "total": 20,
-                "fiber": 3,
-                "sugars": 4.2
-            },
-            "protein": 1.6,
-            "vitamins": {
-                "A": "961 µg",
-                "C": "2.4 mg"
-            },
-            "generalInfo": {
-                "description": "Starchy root vegetable rich in beta-carotene and fiber.",
-                "healthRecommendations": "Supports eye health and digestion; best baked or steamed."
-            }
-        },
-        {
-            "id": "21",
-            "name": "Chickpeas",
-            "calories": 164,
-            "content": "per 100g cooked",
-            "totalFat": {
-                "total": 2.6,
-                "saturated": 0.3,
-                "trans": 0
-            },
-            "sodium": 7,
-            "totalCarbohydrates": {
-                "total": 27,
-                "fiber": 7.6,
-                "sugars": 4.8
-            },
-            "protein": 9,
-            "vitamins": {
-                "Folate": "172 µg",
-                "Iron": "2.9 mg"
-            },
-            "generalInfo": {
-                "description": "Legume high in protein, fiber, and micronutrients.",
-                "healthRecommendations": "Supports digestive health and provides sustained energy."
-            }
-        },
-        {
-            "id": "22",
-            "name": "Avocado",
-            "calories": 160,
-            "content": "per 100g",
-            "totalFat": {
-                "total": 15,
-                "saturated": 2.1,
-                "trans": 0
-            },
-            "sodium": 7,
-            "totalCarbohydrates": {
-                "total": 9,
-                "fiber": 7,
-                "sugars": 0.7
-            },
-            "protein": 2,
-            "vitamins": {
-                "E": "2.1 mg",
-                "K": "21 µg"
-            },
-            "generalInfo": {
-                "description": "Fruit rich in healthy monounsaturated fats and fiber.",
-                "healthRecommendations": "Supports heart health and satiety; consume in moderation."
-            }
-        },
-        {
-            "id": "23",
-            "name": "Tomato",
-            "calories": 18,
-            "content": "per 100g raw",
-            "totalFat": {
-                "total": 0.2,
-                "saturated": 0.03,
-                "trans": 0
-            },
-            "sodium": 5,
-            "totalCarbohydrates": {
-                "total": 3.9,
-                "fiber": 1.2,
-                "sugars": 2.6
-            },
-            "protein": 0.9,
-            "vitamins": {
-                "C": "13.7 mg",
-                "A": "42 µg"
-            },
-            "generalInfo": {
-                "description": "Low-calorie fruit rich in antioxidants and vitamins.",
-                "healthRecommendations": "Supports skin health and reduces inflammation; eat fresh or cooked."
-            }
-        },
-        {
-            "id": "24",
-            "name": "Cucumber",
-            "calories": 16,
-            "content": "per 100g raw",
-            "totalFat": {
-                "total": 0.1,
-                "saturated": 0,
-                "trans": 0
-            },
-            "sodium": 2,
-            "totalCarbohydrates": {
-                "total": 3.6,
-                "fiber": 0.5,
-                "sugars": 1.7
-            },
-            "protein": 0.7,
-            "vitamins": {
-                "K": "16.4 µg",
-                "C": "2.8 mg"
-            },
-            "generalInfo": {
-                "description": "Hydrating vegetable low in calories and sugars.",
-                "healthRecommendations": "Supports hydration and skin health; eat raw."
-            }
-        },
-        {
-            "id": "25",
-            "name": "Lentils",
-            "calories": 116,
-            "content": "per 100g cooked",
-            "totalFat": {
-                "total": 0.4,
-                "saturated": 0.1,
-                "trans": 0
-            },
-            "sodium": 2,
-            "totalCarbohydrates": {
-                "total": 20,
-                "fiber": 8,
-                "sugars": 1.8
-            },
-            "protein": 9,
-            "vitamins": {
-                "Folate": "181 µg",
-                "Iron": "3.3 mg"
-            },
-            "generalInfo": {
-                "description": "High-protein legume rich in fiber and minerals.",
-                "healthRecommendations": "Supports heart health and stable blood sugar."
-            }
-        },
-        {
-            "id": "26",
-            "name": "Tofu",
-            "calories": 76,
-            "content": "per 100g raw",
-            "totalFat": {
-                "total": 4.8,
-                "saturated": 0.7,
-                "trans": 0
-            },
-            "sodium": 7,
-            "totalCarbohydrates": {
-                "total": 1.9,
-                "fiber": 0.3,
-                "sugars": 0.3
-            },
-            "protein": 8,
-            "vitamins": {
-                "Calcium": "350 mg",
-                "Iron": "5.4 mg"
-            },
-            "generalInfo": {
-                "description": "Plant-based protein made from soybeans.",
-                "healthRecommendations": "Good alternative to meat; supports bone health."
-            }
-        },
-        {
-            "id": "27",
-            "name": "Blueberries",
-            "calories": 57,
-            "content": "per 100g",
-            "totalFat": {
-                "total": 0.3,
-                "saturated": 0,
-                "trans": 0
-            },
-            "sodium": 1,
-            "totalCarbohydrates": {
-                "total": 14,
-                "fiber": 2.4,
-                "sugars": 10
-            },
-            "protein": 0.7,
-            "vitamins": {
-                "C": "9.7 mg",
-                "K": "19.3 µg"
-            },
-            "generalInfo": {
-                "description": "Small fruit packed with antioxidants and vitamins.",
-                "healthRecommendations": "Supports brain health and reduces inflammation."
-            }
-        },
-        {
-            "id": "28",
-            "name": "Orange",
-            "calories": 47,
-            "content": "per 100g",
-            "totalFat": {
-                "total": 0.1,
-                "saturated": 0,
-                "trans": 0
-            },
-            "sodium": 0,
-            "totalCarbohydrates": {
-                "total": 12,
-                "fiber": 2.4,
-                "sugars": 9
-            },
-            "protein": 0.9,
-            "vitamins": {
-                "C": "53.2 mg",
-                "Folate": "30 µg"
-            },
-            "generalInfo": {
-                "description": "Citrus fruit high in vitamin C and fiber.",
-                "healthRecommendations": "Supports immunity and skin health; eat fresh."
-            }
-        },
-        {
-            "id": "29",
-            "name": "Green Peas",
-            "calories": 81,
-            "content": "per 100g cooked",
-            "totalFat": {
-                "total": 0.4,
-                "saturated": 0.1,
-                "trans": 0
-            },
-            "sodium": 5,
-            "totalCarbohydrates": {
-                "total": 14,
-                "fiber": 5,
-                "sugars": 5
-            },
-            "protein": 5,
-            "vitamins": {
-                "A": "38 µg",
-                "C": "14 mg"
-            },
-            "generalInfo": {
-                "description": "Legume rich in protein, fiber, and vitamins.",
-                "healthRecommendations": "Good for digestion and blood sugar regulation."
-            }
-        },
-        {
-            "id": "30",
-            "name": "Dark Chocolate",
-            "calories": 546,
-            "content": "per 100g (70-85% cacao)",
-            "totalFat": {
-                "total": 31,
-                "saturated": 19,
-                "trans": 0
-            },
-            "sodium": 24,
-            "totalCarbohydrates": {
-                "total": 61,
-                "fiber": 7,
-                "sugars": 47
-            },
-            "protein": 4.9,
-            "vitamins": {
-                "Iron": "11.9 mg",
-                "Magnesium": "146 mg"
-            },
-            "generalInfo": {
-                "description": "Rich in antioxidants and minerals.",
-                "healthRecommendations": "Choose high cacao content; consume in moderation."
-            }
+          "foodName": "Banana",
+          "amount": 1,
+          "unit": "pcs",
+          "calories": 0
         }
-    ]
+      ],
+      "timestamp": 1718725800000,
+      "review": "Golden Sunrise Banana Oatmeal Bowl"
+    },
+    {
+      "id": "4",
+      "userId": 1,
+      "consumedFoods": [
+        {
+          "foodName": "Salmon",
+          "amount": 180,
+          "unit": "g",
+          "calories": 360
+        },
+        {
+          "foodName": "Quinoa",
+          "amount": 120,
+          "unit": "g",
+          "calories": 0
+        }
+      ],
+      "timestamp": 1718733000000,
+      "review": "Seared Salmon atop Nutty Quinoa Pilaf"
+    },
+    {
+      "id": "5",
+      "userId": 2,
+      "consumedFoods": [
+        {
+          "foodName": "Eggs",
+          "amount": 3,
+          "unit": "pcs",
+          "calories": 78
+        },
+        {
+          "foodName": "Toast",
+          "amount": 2,
+          "unit": "slices",
+          "calories": 140
+        }
+      ],
+      "timestamp": 1718736000000,
+      "review": "Fluffy Scrambled Eggs with Golden Toast Soldiers"
+    },
+    {
+      "id": "6",
+      "userId": 3,
+      "consumedFoods": [
+        {
+          "foodName": "Granola",
+          "amount": 50,
+          "unit": "g",
+          "calories": 0
+        },
+        {
+          "foodName": "Greek Yogurt",
+          "amount": 150,
+          "unit": "g",
+          "calories": 100
+        }
+      ],
+      "timestamp": 1718739600000,
+      "review": "Crunchy Honey Granola & Creamy Greek Yogurt"
+    },
+    {
+      "id": "7",
+      "userId": 4,
+      "consumedFoods": [
+        {
+          "foodName": "Steak",
+          "amount": 250,
+          "unit": "g",
+          "calories": 725
+        },
+        {
+          "foodName": "Mashed Potatoes",
+          "amount": 200,
+          "unit": "g",
+          "calories": 164
+        }
+      ],
+      "timestamp": 1718743200000,
+      "review": "Juicy Peppercorn Steak with Velvet Mashed Potatoes"
+    },
+    {
+      "id": "8",
+      "userId": 5,
+      "consumedFoods": [
+        {
+          "foodName": "Whole Wheat Pasta",
+          "amount": 150,
+          "unit": "g",
+          "calories": 378
+        },
+        {
+          "foodName": "Tuna",
+          "amount": 100,
+          "unit": "g",
+          "calories": 0
+        }
+      ],
+      "timestamp": 1718746800000,
+      "review": "Mediterranean Tuna & Whole Wheat Pasta Delight"
+    },
+    {
+      "id": "9",
+      "userId": 6,
+      "consumedFoods": [
+        {
+          "foodName": "Toast",
+          "amount": 1,
+          "unit": "slices",
+          "calories": 0
+        },
+        {
+          "foodName": "Avocado",
+          "amount": 1,
+          "unit": "pcs",
+          "calories": 322
+        }
+      ],
+      "timestamp": 1718750400000,
+      "review": "Creamy Avocado Smash on Rustic Toast"
+    },
+    {
+      "id": "10",
+      "userId": 7,
+      "consumedFoods": [
+        {
+          "foodName": "Turkey Breast",
+          "amount": 180,
+          "unit": "g",
+          "calories": 296
+        },
+        {
+          "foodName": "Sweet Potato",
+          "amount": 160,
+          "unit": "g",
+          "calories": 105
+        }
+      ],
+      "timestamp": 1718754000000,
+      "review": "Roasted Turkey & Honey-Glazed Sweet Potato"
+    },
+    {
+      "id": "11",
+      "userId": 8,
+      "consumedFoods": [
+        {
+          "foodName": "Cottage Cheese",
+          "amount": 200,
+          "unit": "g",
+          "calories": 0
+        },
+        {
+          "foodName": "Apple",
+          "amount": 1,
+          "unit": "pcs",
+          "calories": 52
+        }
+      ],
+      "timestamp": 1718757600000,
+      "review": "Fresh Apple Slices with Creamy Cottage Cheese"
+    },
+    {
+      "id": "12",
+      "userId": 9,
+      "consumedFoods": [
+        {
+          "foodName": "Maple Syrup",
+          "amount": 30,
+          "unit": "ml",
+          "calories": 0
+        },
+        {
+          "foodName": "Pancakes",
+          "amount": 3,
+          "unit": "pcs",
+          "calories": 0
+        }
+      ],
+      "timestamp": 1718761200000,
+      "review": "Fluffy Pancakes Drizzled with Golden Maple"
+    },
+    {
+      "id": "13",
+      "userId": 10,
+      "consumedFoods": [
+        {
+          "foodName": "Banana",
+          "amount": 1,
+          "unit": "pcs",
+          "calories": 0
+        },
+        {
+          "foodName": "Protein Shake",
+          "amount": 1,
+          "unit": "serving",
+          "calories": 0
+        }
+      ],
+      "timestamp": 1718764800000,
+      "review": "Power-Packed Banana & Protein Boost"
+    },
+    {
+      "id": "14",
+      "userId": 2,
+      "consumedFoods": [
+        {
+          "foodName": "Eggs",
+          "amount": 3,
+          "unit": "pcs",
+          "calories": 78
+        },
+        {
+          "foodName": "Toast",
+          "amount": 2,
+          "unit": "slices",
+          "calories": 140
+        }
+      ],
+      "timestamp": 1718736000000,
+      "review": "Fluffy Scrambled Eggs with Golden Toast Soldiers"
+    },
+    {
+      "id": "15",
+      "userId": 2,
+      "consumedFoods": [
+        {
+          "foodName": "Rice",
+          "amount": 150,
+          "unit": "g",
+          "calories": 129
+        },
+        {
+          "foodName": "Chicken Breast",
+          "amount": 200,
+          "unit": "g",
+          "calories": 367
+        }
+      ],
+      "timestamp": 1718743200000,
+      "review": "Herb-Roasted Chicken with Jasmine Rice"
+    },
+    {
+      "id": "16",
+      "userId": 2,
+      "consumedFoods": [
+        {
+          "foodName": "Salmon",
+          "amount": 180,
+          "unit": "g",
+          "calories": 360
+        },
+        {
+          "foodName": "Broccoli",
+          "amount": 100,
+          "unit": "g",
+          "calories": 0
+        }
+      ],
+      "timestamp": 1718750400000,
+      "review": "Lemon-Dusted Salmon with Tender Broccoli"
+    },
+    {
+      "id": "17",
+      "userId": 3,
+      "consumedFoods": [
+        {
+          "foodName": "Oats",
+          "amount": 100,
+          "unit": "g",
+          "calories": 276
+        },
+        {
+          "foodName": "Milk",
+          "amount": 200,
+          "unit": "ml",
+          "calories": 0
+        }
+      ],
+      "timestamp": 1718739600000,
+      "review": "Creamy Morning Oats with Fresh Milk"
+    },
+    {
+      "id": "18",
+      "userId": 3,
+      "consumedFoods": [
+        {
+          "foodName": "Quinoa",
+          "amount": 150,
+          "unit": "g",
+          "calories": 420
+        },
+        {
+          "foodName": "Beef",
+          "amount": 200,
+          "unit": "g",
+          "calories": 500
+        }
+      ],
+      "timestamp": 1718746800000,
+      "review": "Spiced Beef over Nutty Quinoa"
+    },
+    {
+      "id": "19",
+      "userId": 4,
+      "consumedFoods": [
+        {
+          "foodName": "Salad",
+          "amount": 150,
+          "unit": "g",
+          "calories": 50
+        },
+        {
+          "foodName": "Grilled Chicken",
+          "amount": 180,
+          "unit": "g",
+          "calories": 330
+        }
+      ],
+      "timestamp": 1718754000000,
+      "review": "Garden Fresh Salad with Char-Grilled Chicken"
+    },
+    {
+      "id": "20",
+      "userId": 5,
+      "consumedFoods": [
+        {
+          "foodName": "Pasta",
+          "amount": 200,
+          "unit": "g",
+          "calories": 250
+        },
+        {
+          "foodName": "Tomato Sauce",
+          "amount": 100,
+          "unit": "g",
+          "calories": 50
+        }
+      ],
+      "timestamp": 1718757600000,
+      "review": "Rustic Pasta Tossed in Tangy Tomato Sauce"
+    },
+    {
+      "id": "44ba",
+      "review": "First test meal",
+      "userId": 1,
+      "consumedFoods": [
+        {
+          "foodName": "Proba",
+          "amount": 100,
+          "unit": "g",
+          "calories": 122
+        },
+        {
+          "foodName": "",
+          "amount": 0,
+          "unit": "",
+          "calories": 0
+        }
+      ],
+      "created_at": "7/3/2025"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "firstName": "Pesho",
+      "age": 0,
+      "height": 0,
+      "weight": 0,
+      "recommendedCal": 0
+    },
+    {
+      "id": "2",
+      "firstName": "Gosho",
+      "age": 0,
+      "height": 0,
+      "weight": 0,
+      "recommendedCal": 0
+    },
+    {
+      "id": "3",
+      "firstName": "Tosho",
+      "age": 22,
+      "height": 182,
+      "weight": 85,
+      "recommendedCal": 2600
+    },
+    {
+      "id": "4",
+      "firstName": "Tosho",
+      "age": 22,
+      "height": 182,
+      "weight": 85,
+      "recommendedCal": 2600
+    },
+    {
+      "id": "5",
+      "firstName": "Ivan",
+      "age": 27,
+      "height": 175,
+      "weight": 78,
+      "recommendedCal": 2500
+    },
+    {
+      "id": "6",
+      "firstName": "Mira",
+      "age": 30,
+      "height": 168,
+      "weight": 62,
+      "recommendedCal": 2100
+    },
+    {
+      "id": "7",
+      "firstName": "Niki",
+      "age": 35,
+      "height": 180,
+      "weight": 90,
+      "recommendedCal": 2800
+    },
+    {
+      "id": "8",
+      "firstName": "Elena",
+      "age": 24,
+      "height": 165,
+      "weight": 55,
+      "recommendedCal": 2000
+    },
+    {
+      "id": "9",
+      "firstName": "Georgi",
+      "age": 40,
+      "height": 178,
+      "weight": 88,
+      "recommendedCal": 2700
+    },
+    {
+      "id": "10",
+      "firstName": "Kristina",
+      "age": 29,
+      "height": 170,
+      "weight": 60,
+      "recommendedCal": 2200
+    }
+  ],
+  "food": [
+    {
+      "id": "1",
+      "name": "Chicken Breast",
+      "calories": 184,
+      "content": "per 100g cooked",
+      "totalFat": {
+        "total": 3.6,
+        "saturated": 1,
+        "trans": 0
+      },
+      "sodium": 74,
+      "totalCarbohydrates": {
+        "total": 0,
+        "fiber": 0,
+        "sugars": 0
+      },
+      "protein": 31,
+      "vitamins": {
+        "B6": "0.6 mg",
+        "B12": "0.3 µg"
+      },
+      "generalInfo": {
+        "description": "Lean source of high-quality protein, low in fat.",
+        "healthRecommendations": "Great for muscle building and weight management. Choose grilled or baked preparations to limit added fats."
+      }
+    },
+    {
+      "id": "2",
+      "name": "Rice",
+      "calories": 129,
+      "content": "per 150g cooked",
+      "totalFat": {
+        "total": 0.3,
+        "saturated": 0.1,
+        "trans": 0
+      },
+      "sodium": 1,
+      "totalCarbohydrates": {
+        "total": 28,
+        "fiber": 0.4,
+        "sugars": 0.1
+      },
+      "protein": 2.7,
+      "vitamins": {
+        "Thiamin": "0.07 mg",
+        "Niacin": "1.2 mg"
+      },
+      "generalInfo": {
+        "description": "A staple carbohydrate source providing energy.",
+        "healthRecommendations": "Opt for whole grain or brown rice for added fiber and nutrients."
+      }
+    },
+    {
+      "id": "3",
+      "name": "Oats",
+      "calories": 276,
+      "content": "per 100g raw",
+      "totalFat": {
+        "total": 6,
+        "saturated": 1.1,
+        "trans": 0
+      },
+      "sodium": 2,
+      "totalCarbohydrates": {
+        "total": 46,
+        "fiber": 8,
+        "sugars": 0.4
+      },
+      "protein": 11,
+      "vitamins": {
+        "B1": "0.8 mg",
+        "B5": "1.1 mg"
+      },
+      "generalInfo": {
+        "description": "Whole grain rich in soluble fiber and protein.",
+        "healthRecommendations": "Helps lower cholesterol and supports heart health. Great for sustained energy."
+      }
+    },
+    {
+      "id": "4",
+      "name": "Banana",
+      "calories": 89,
+      "content": "per 100g",
+      "totalFat": {
+        "total": 0.3,
+        "saturated": 0.1,
+        "trans": 0
+      },
+      "sodium": 1,
+      "totalCarbohydrates": {
+        "total": 23,
+        "fiber": 2.6,
+        "sugars": 12
+      },
+      "protein": 1.1,
+      "vitamins": {
+        "C": "8.7 mg",
+        "B6": "0.4 mg"
+      },
+      "generalInfo": {
+        "description": "Rich in potassium and natural sugars for quick energy.",
+        "healthRecommendations": "Good pre- or post-workout snack. Consume in moderation if monitoring sugar intake."
+      }
+    },
+    {
+      "id": "5",
+      "name": "Salmon",
+      "calories": 200,
+      "content": "per 100g cooked",
+      "totalFat": {
+        "total": 13,
+        "saturated": 3,
+        "trans": 0
+      },
+      "sodium": 59,
+      "totalCarbohydrates": {
+        "total": 0,
+        "fiber": 0,
+        "sugars": 0
+      },
+      "protein": 22,
+      "vitamins": {
+        "D": "11 µg",
+        "B12": "3.2 µg"
+      },
+      "generalInfo": {
+        "description": "Rich in omega-3 fatty acids and high-quality protein.",
+        "healthRecommendations": "Supports heart and brain health. Prefer wild-caught for better nutrient profile."
+      }
+    },
+    {
+      "id": "6",
+      "name": "Quinoa",
+      "calories": 222,
+      "content": "per 185g cooked",
+      "totalFat": {
+        "total": 3.6,
+        "saturated": 0.4,
+        "trans": 0
+      },
+      "sodium": 13,
+      "totalCarbohydrates": {
+        "total": 39,
+        "fiber": 5,
+        "sugars": 1.6
+      },
+      "protein": 8,
+      "vitamins": {
+        "B6": "0.1 mg",
+        "Folate": "77 µg"
+      },
+      "generalInfo": {
+        "description": "Gluten-free pseudo-grain high in protein and fiber.",
+        "healthRecommendations": "Good plant-based protein source; aids digestion and sustained energy."
+      }
+    },
+    {
+      "id": "7",
+      "name": "Eggs",
+      "calories": 78,
+      "content": "per large egg (50g)",
+      "totalFat": {
+        "total": 5,
+        "saturated": 1.6,
+        "trans": 0
+      },
+      "sodium": 62,
+      "totalCarbohydrates": {
+        "total": 0.6,
+        "fiber": 0,
+        "sugars": 0.5
+      },
+      "protein": 6,
+      "vitamins": {
+        "B12": "0.6 µg",
+        "D": "1 µg"
+      },
+      "generalInfo": {
+        "description": "Complete protein with essential amino acids and healthy fats.",
+        "healthRecommendations": "Supports muscle and brain health. Moderate intake recommended for cholesterol-sensitive individuals."
+      }
+    },
+    {
+      "id": "8",
+      "name": "Toast",
+      "calories": 70,
+      "content": "per slice (white bread)",
+      "totalFat": {
+        "total": 1,
+        "saturated": 0.2,
+        "trans": 0
+      },
+      "sodium": 130,
+      "totalCarbohydrates": {
+        "total": 13,
+        "fiber": 0.5,
+        "sugars": 1.5
+      },
+      "protein": 2,
+      "vitamins": {
+        "B1": "0.1 mg",
+        "Folate": "17 µg"
+      },
+      "generalInfo": {
+        "description": "Refined carbohydrate; source of quick energy.",
+        "healthRecommendations": "Choose whole grain varieties to increase fiber and nutrients."
+      }
+    },
+    {
+      "id": "9",
+      "name": "Greek Yogurt",
+      "calories": 59,
+      "content": "per 100g",
+      "totalFat": {
+        "total": 0.4,
+        "saturated": 0.1,
+        "trans": 0
+      },
+      "sodium": 36,
+      "totalCarbohydrates": {
+        "total": 3.6,
+        "fiber": 0,
+        "sugars": 3.2
+      },
+      "protein": 10,
+      "vitamins": {
+        "B12": "0.75 µg",
+        "Calcium": "110 mg"
+      },
+      "generalInfo": {
+        "description": "Thick yogurt high in protein and probiotics.",
+        "healthRecommendations": "Supports gut health and muscle recovery."
+      }
+    },
+    {
+      "id": "10",
+      "name": "Granola",
+      "calories": 471,
+      "content": "per 100g",
+      "totalFat": {
+        "total": 21,
+        "saturated": 2,
+        "trans": 0
+      },
+      "sodium": 120,
+      "totalCarbohydrates": {
+        "total": 64,
+        "fiber": 7,
+        "sugars": 25
+      },
+      "protein": 10,
+      "vitamins": {
+        "Iron": "4 mg",
+        "Magnesium": "150 mg"
+      },
+      "generalInfo": {
+        "description": "Mix of oats, nuts, and sweeteners; high in calories.",
+        "healthRecommendations": "Consume in moderation due to sugar content; good source of fiber."
+      }
+    },
+    {
+      "id": "11",
+      "name": "Steak",
+      "calories": 290,
+      "content": "per 100g cooked",
+      "totalFat": {
+        "total": 19,
+        "saturated": 8,
+        "trans": 0.5
+      },
+      "sodium": 55,
+      "totalCarbohydrates": {
+        "total": 0,
+        "fiber": 0,
+        "sugars": 0
+      },
+      "protein": 25,
+      "vitamins": {
+        "B12": "2.6 µg",
+        "Iron": "2.7 mg"
+      },
+      "generalInfo": {
+        "description": "Rich in protein, iron, and B vitamins; contains saturated fats.",
+        "healthRecommendations": "Choose lean cuts and limit intake for heart health."
+      }
+    },
+    {
+      "id": "12",
+      "name": "Mashed Potatoes",
+      "calories": 82,
+      "content": "per 100g",
+      "totalFat": {
+        "total": 3,
+        "saturated": 1.5,
+        "trans": 0
+      },
+      "sodium": 220,
+      "totalCarbohydrates": {
+        "total": 15,
+        "fiber": 1.4,
+        "sugars": 0.8
+      },
+      "protein": 1.7,
+      "vitamins": {
+        "C": "8 mg",
+        "B6": "0.2 mg"
+      },
+      "generalInfo": {
+        "description": "Comfort food rich in carbs; often made with butter or cream.",
+        "healthRecommendations": "Limit added fats and salt to reduce calories and sodium."
+      }
+    },
+    {
+      "id": "13",
+      "name": "Spinach",
+      "calories": 23,
+      "content": "per 100g raw",
+      "totalFat": {
+        "total": 0.4,
+        "saturated": 0.06,
+        "trans": 0
+      },
+      "sodium": 79,
+      "totalCarbohydrates": {
+        "total": 3.6,
+        "fiber": 2.2,
+        "sugars": 0.4
+      },
+      "protein": 2.9,
+      "vitamins": {
+        "A": "469 µg",
+        "K": "483 µg"
+      },
+      "generalInfo": {
+        "description": "Leafy green rich in vitamins A, K, and antioxidants.",
+        "healthRecommendations": "Supports eye and bone health; eat fresh or lightly cooked."
+      }
+    },
+    {
+      "id": "14",
+      "name": "Apple",
+      "calories": 52,
+      "content": "per 100g",
+      "totalFat": {
+        "total": 0.2,
+        "saturated": 0.03,
+        "trans": 0
+      },
+      "sodium": 1,
+      "totalCarbohydrates": {
+        "total": 14,
+        "fiber": 2.4,
+        "sugars": 10
+      },
+      "protein": 0.3,
+      "vitamins": {
+        "C": "4.6 mg",
+        "B6": "0.04 mg"
+      },
+      "generalInfo": {
+        "description": "Popular fruit high in fiber and vitamin C.",
+        "healthRecommendations": "Good for digestion and immunity; eat with skin for maximum fiber."
+      }
+    },
+    {
+      "id": "15",
+      "name": "Broccoli",
+      "calories": 34,
+      "content": "per 100g raw",
+      "totalFat": {
+        "total": 0.4,
+        "saturated": 0.04,
+        "trans": 0
+      },
+      "sodium": 33,
+      "totalCarbohydrates": {
+        "total": 7,
+        "fiber": 2.6,
+        "sugars": 1.7
+      },
+      "protein": 2.8,
+      "vitamins": {
+        "C": "89 mg",
+        "K": "101.6 µg"
+      },
+      "generalInfo": {
+        "description": "Cruciferous vegetable high in fiber, vitamins C and K.",
+        "healthRecommendations": "Supports immune system and bone health; best eaten steamed or raw."
+      }
+    },
+    {
+      "id": "16",
+      "name": "Almonds",
+      "calories": 579,
+      "content": "per 100g",
+      "totalFat": {
+        "total": 50,
+        "saturated": 3.7,
+        "trans": 0
+      },
+      "sodium": 1,
+      "totalCarbohydrates": {
+        "total": 22,
+        "fiber": 12,
+        "sugars": 4.4
+      },
+      "protein": 21,
+      "vitamins": {
+        "E": "25.6 mg",
+        "Magnesium": "270 mg"
+      },
+      "generalInfo": {
+        "description": "Nutrient-dense nuts rich in healthy fats and protein.",
+        "healthRecommendations": "Good for heart health and satiety; eat in moderation due to high calories."
+      }
+    },
+    {
+      "id": "17",
+      "name": "Carrots",
+      "calories": 41,
+      "content": "per 100g raw",
+      "totalFat": {
+        "total": 0.2,
+        "saturated": 0.04,
+        "trans": 0
+      },
+      "sodium": 69,
+      "totalCarbohydrates": {
+        "total": 10,
+        "fiber": 2.8,
+        "sugars": 4.7
+      },
+      "protein": 0.9,
+      "vitamins": {
+        "A": "835 µg",
+        "K": "13.2 µg"
+      },
+      "generalInfo": {
+        "description": "Root vegetable high in beta-carotene and fiber.",
+        "healthRecommendations": "Supports vision and skin health; best consumed raw or lightly cooked."
+      }
+    },
+    {
+      "id": "18",
+      "name": "Peanut Butter",
+      "calories": 588,
+      "content": "per 100g",
+      "totalFat": {
+        "total": 50,
+        "saturated": 10,
+        "trans": 0
+      },
+      "sodium": 17,
+      "totalCarbohydrates": {
+        "total": 20,
+        "fiber": 6,
+        "sugars": 9
+      },
+      "protein": 25,
+      "vitamins": {
+        "E": "8.3 mg",
+        "B3": "12 mg"
+      },
+      "generalInfo": {
+        "description": "High-calorie spread rich in fats and protein.",
+        "healthRecommendations": "Choose natural varieties with no added sugar or hydrogenated fats."
+      }
+    },
+    {
+      "id": "19",
+      "name": "Milk",
+      "calories": 42,
+      "content": "per 100ml whole milk",
+      "totalFat": {
+        "total": 1,
+        "saturated": 0.6,
+        "trans": 0
+      },
+      "sodium": 44,
+      "totalCarbohydrates": {
+        "total": 5,
+        "fiber": 0,
+        "sugars": 5
+      },
+      "protein": 3.4,
+      "vitamins": {
+        "D": "1 µg",
+        "B12": "0.5 µg"
+      },
+      "generalInfo": {
+        "description": "Good source of calcium, protein, and vitamins D and B12.",
+        "healthRecommendations": "Supports bone health; choose low-fat options if managing calorie intake."
+      }
+    },
+    {
+      "id": "20",
+      "name": "Sweet Potato",
+      "calories": 86,
+      "content": "per 100g cooked",
+      "totalFat": {
+        "total": 0.1,
+        "saturated": 0,
+        "trans": 0
+      },
+      "sodium": 55,
+      "totalCarbohydrates": {
+        "total": 20,
+        "fiber": 3,
+        "sugars": 4.2
+      },
+      "protein": 1.6,
+      "vitamins": {
+        "A": "961 µg",
+        "C": "2.4 mg"
+      },
+      "generalInfo": {
+        "description": "Starchy root vegetable rich in beta-carotene and fiber.",
+        "healthRecommendations": "Supports eye health and digestion; best baked or steamed."
+      }
+    },
+    {
+      "id": "21",
+      "name": "Chickpeas",
+      "calories": 164,
+      "content": "per 100g cooked",
+      "totalFat": {
+        "total": 2.6,
+        "saturated": 0.3,
+        "trans": 0
+      },
+      "sodium": 7,
+      "totalCarbohydrates": {
+        "total": 27,
+        "fiber": 7.6,
+        "sugars": 4.8
+      },
+      "protein": 9,
+      "vitamins": {
+        "Folate": "172 µg",
+        "Iron": "2.9 mg"
+      },
+      "generalInfo": {
+        "description": "Legume high in protein, fiber, and micronutrients.",
+        "healthRecommendations": "Supports digestive health and provides sustained energy."
+      }
+    },
+    {
+      "id": "22",
+      "name": "Avocado",
+      "calories": 160,
+      "content": "per 100g",
+      "totalFat": {
+        "total": 15,
+        "saturated": 2.1,
+        "trans": 0
+      },
+      "sodium": 7,
+      "totalCarbohydrates": {
+        "total": 9,
+        "fiber": 7,
+        "sugars": 0.7
+      },
+      "protein": 2,
+      "vitamins": {
+        "E": "2.1 mg",
+        "K": "21 µg"
+      },
+      "generalInfo": {
+        "description": "Fruit rich in healthy monounsaturated fats and fiber.",
+        "healthRecommendations": "Supports heart health and satiety; consume in moderation."
+      }
+    },
+    {
+      "id": "23",
+      "name": "Tomato",
+      "calories": 18,
+      "content": "per 100g raw",
+      "totalFat": {
+        "total": 0.2,
+        "saturated": 0.03,
+        "trans": 0
+      },
+      "sodium": 5,
+      "totalCarbohydrates": {
+        "total": 3.9,
+        "fiber": 1.2,
+        "sugars": 2.6
+      },
+      "protein": 0.9,
+      "vitamins": {
+        "C": "13.7 mg",
+        "A": "42 µg"
+      },
+      "generalInfo": {
+        "description": "Low-calorie fruit rich in antioxidants and vitamins.",
+        "healthRecommendations": "Supports skin health and reduces inflammation; eat fresh or cooked."
+      }
+    },
+    {
+      "id": "24",
+      "name": "Cucumber",
+      "calories": 16,
+      "content": "per 100g raw",
+      "totalFat": {
+        "total": 0.1,
+        "saturated": 0,
+        "trans": 0
+      },
+      "sodium": 2,
+      "totalCarbohydrates": {
+        "total": 3.6,
+        "fiber": 0.5,
+        "sugars": 1.7
+      },
+      "protein": 0.7,
+      "vitamins": {
+        "K": "16.4 µg",
+        "C": "2.8 mg"
+      },
+      "generalInfo": {
+        "description": "Hydrating vegetable low in calories and sugars.",
+        "healthRecommendations": "Supports hydration and skin health; eat raw."
+      }
+    },
+    {
+      "id": "25",
+      "name": "Lentils",
+      "calories": 116,
+      "content": "per 100g cooked",
+      "totalFat": {
+        "total": 0.4,
+        "saturated": 0.1,
+        "trans": 0
+      },
+      "sodium": 2,
+      "totalCarbohydrates": {
+        "total": 20,
+        "fiber": 8,
+        "sugars": 1.8
+      },
+      "protein": 9,
+      "vitamins": {
+        "Folate": "181 µg",
+        "Iron": "3.3 mg"
+      },
+      "generalInfo": {
+        "description": "High-protein legume rich in fiber and minerals.",
+        "healthRecommendations": "Supports heart health and stable blood sugar."
+      }
+    },
+    {
+      "id": "26",
+      "name": "Tofu",
+      "calories": 76,
+      "content": "per 100g raw",
+      "totalFat": {
+        "total": 4.8,
+        "saturated": 0.7,
+        "trans": 0
+      },
+      "sodium": 7,
+      "totalCarbohydrates": {
+        "total": 1.9,
+        "fiber": 0.3,
+        "sugars": 0.3
+      },
+      "protein": 8,
+      "vitamins": {
+        "Calcium": "350 mg",
+        "Iron": "5.4 mg"
+      },
+      "generalInfo": {
+        "description": "Plant-based protein made from soybeans.",
+        "healthRecommendations": "Good alternative to meat; supports bone health."
+      }
+    },
+    {
+      "id": "27",
+      "name": "Blueberries",
+      "calories": 57,
+      "content": "per 100g",
+      "totalFat": {
+        "total": 0.3,
+        "saturated": 0,
+        "trans": 0
+      },
+      "sodium": 1,
+      "totalCarbohydrates": {
+        "total": 14,
+        "fiber": 2.4,
+        "sugars": 10
+      },
+      "protein": 0.7,
+      "vitamins": {
+        "C": "9.7 mg",
+        "K": "19.3 µg"
+      },
+      "generalInfo": {
+        "description": "Small fruit packed with antioxidants and vitamins.",
+        "healthRecommendations": "Supports brain health and reduces inflammation."
+      }
+    },
+    {
+      "id": "28",
+      "name": "Orange",
+      "calories": 47,
+      "content": "per 100g",
+      "totalFat": {
+        "total": 0.1,
+        "saturated": 0,
+        "trans": 0
+      },
+      "sodium": 0,
+      "totalCarbohydrates": {
+        "total": 12,
+        "fiber": 2.4,
+        "sugars": 9
+      },
+      "protein": 0.9,
+      "vitamins": {
+        "C": "53.2 mg",
+        "Folate": "30 µg"
+      },
+      "generalInfo": {
+        "description": "Citrus fruit high in vitamin C and fiber.",
+        "healthRecommendations": "Supports immunity and skin health; eat fresh."
+      }
+    },
+    {
+      "id": "29",
+      "name": "Green Peas",
+      "calories": 81,
+      "content": "per 100g cooked",
+      "totalFat": {
+        "total": 0.4,
+        "saturated": 0.1,
+        "trans": 0
+      },
+      "sodium": 5,
+      "totalCarbohydrates": {
+        "total": 14,
+        "fiber": 5,
+        "sugars": 5
+      },
+      "protein": 5,
+      "vitamins": {
+        "A": "38 µg",
+        "C": "14 mg"
+      },
+      "generalInfo": {
+        "description": "Legume rich in protein, fiber, and vitamins.",
+        "healthRecommendations": "Good for digestion and blood sugar regulation."
+      }
+    },
+    {
+      "id": "30",
+      "name": "Dark Chocolate",
+      "calories": 546,
+      "content": "per 100g (70-85% cacao)",
+      "totalFat": {
+        "total": 31,
+        "saturated": 19,
+        "trans": 0
+      },
+      "sodium": 24,
+      "totalCarbohydrates": {
+        "total": 61,
+        "fiber": 7,
+        "sugars": 47
+      },
+      "protein": 4.9,
+      "vitamins": {
+        "Iron": "11.9 mg",
+        "Magnesium": "146 mg"
+      },
+      "generalInfo": {
+        "description": "Rich in antioxidants and minerals.",
+        "healthRecommendations": "Choose high cacao content; consume in moderation."
+      }
+    }
+  ]
 }

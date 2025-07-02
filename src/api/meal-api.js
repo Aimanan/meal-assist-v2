@@ -22,9 +22,9 @@ export class MealApi {
 
   }
 
-  // static async deleteById(mealId) {
-  //   return (await axios.delete(`${BASE_URL}/${mealId}`)).data;
-  // }
+  static async deleteById(mealId) {
+    return (await axios.delete(`${BASE_URL}/${mealId}`)).data;
+  }
   //
   // static async updateById(id, values) {
   //   return (await axios.patch(`${BASE_URL}/${id}`, values)).data;
