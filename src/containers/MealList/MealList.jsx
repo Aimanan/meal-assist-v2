@@ -5,11 +5,10 @@ import { TextCard } from "../../components/TextCard/TextCard";
 import { MealApi } from "../../api/meal-api";
 import { deleteMeal } from "../../store/meals/meals-slice";
 
-export function MealList() {
+export function MealList({ mealList }) {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  const mealList = useSelector((store) => store.meals.mealList);
   const foodList = useSelector((store) => store.foods.foodList);
 
   async function deleteMeal_(meal) {
