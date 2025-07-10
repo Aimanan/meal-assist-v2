@@ -1,17 +1,20 @@
 .container {
   cursor: pointer;
   border-radius: 16px;
-  padding: 20px;
+  padding: 5px;
   min-height: 320px;
   width: 100%;
   max-width: 400px;
   background-color: #fdfdfd;
   border: 1.5px solid #e0e0e0;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.40);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   transition: box-shadow 0.3s ease, transform 0.2s ease;
+  /* height: 400px;
+  width: 300px; */
+  overflow: hidden;
 }
 
 .container:hover {
@@ -20,14 +23,17 @@
 }
 
 .title_row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: relative;
   margin-bottom: 12px;
 }
 
 .title_row svg {
-  transition: color 0.2s ease;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
 }
 
 .meta_row {
@@ -133,3 +139,4 @@
     font-size: 0.85rem;
   }
 }
+

@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import s from "./style.module.css";
-import { TextCard } from "../../components/TextCard/TextCard";
+import { MealCard } from "../../components/MealCard/MealCard";
 import { MealApi } from "../../api/meal-api";
 import { deleteMeal } from "../../store/meals/meals-slice";
 
@@ -22,7 +22,7 @@ export function MealList({ mealList }) {
     <div className={`row justify-content-center ${s.cards_container}`}>
       {mealList.map((meal) => (
         <div key={meal.id} className={s.card_container}>
-          <TextCard
+          <MealCard
             id={meal.id}
             userId={meal.userId}
             consumedFoods={meal.consumedFoods}
