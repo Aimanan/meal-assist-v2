@@ -70,34 +70,49 @@ export function UserForm({
         {isEditable && createInput("First Name", "firstName")}
       </div>
       <div className="mb-3">
-        {isEditable ? createInput("ID", "id") : <pre>Id: {user?.id}</pre>}
+        {isEditable ? (
+          createInput("ID", "id")
+        ) : (
+          <pre>
+            <strong>Id:</strong> {user?.id}
+          </pre>
+        )}
       </div>
       <div className="mb-3">
         {isEditable ? (
           createInput("Age", "age", "number")
         ) : (
-          <pre>Age: {user?.age}</pre>
+          <pre>
+            <strong>Age:</strong> {user?.age} y.
+          </pre>
         )}
       </div>
       <div className="mb-3">
         {isEditable ? (
           createInput("Weight", "weight", "number")
         ) : (
-          <pre>Weight: {user?.weight}</pre>
+          <pre>
+            <strong>Weight:</strong> {user?.weight} kg.
+          </pre>
         )}
       </div>
       <div className="mb-3">
         {isEditable ? (
           createInput("Height", "height", "number")
         ) : (
-          <pre>Height: {user?.height}</pre>
+          <pre>
+            <strong>Height:</strong> {user?.height} cm.
+          </pre>
         )}
       </div>
       <div className="mb-3">
         {isEditable ? (
           createInput("Recommended Calories", "recommendedCal", "number")
         ) : (
-          <pre>Recommended Calories: {user?.recommendedCal}</pre>
+          <pre>
+            <strong>Recommended Calories: </strong>
+            {user?.recommendedCal} ccal.
+          </pre>
         )}
       </div>
       {onSubmit && submitBtn}

@@ -1,29 +1,30 @@
 .container {
   cursor: pointer;
-  border-radius: 16px;
-  padding: 20px;
+  border-radius: 20px;
+  padding: 24px;
   min-height: 320px;
   width: 100%;
-  max-width: 400px;
-  background-color: #fdfdfd;
-  border: 1.5px solid #e0e0e0;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  max-width: 420px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   transition: box-shadow 0.3s ease, transform 0.2s ease;
+  margin-left: auto; 
 }
 
 .container:hover {
-  box-shadow: 0 8px 20px rgba(13, 110, 253, 0.15);
-  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(13, 110, 253, 0.1);
+  transform: translateY(-5px);
 }
 
 .title_row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .title_row svg {
@@ -31,87 +32,42 @@
 }
 
 .meta_row {
-  padding: 10px;
-  border-radius: 8px;
-  margin-top: 10px;
-  font-size: 0.9rem;
+  padding: 12px 16px;
+  border-radius: 12px;
+  margin-top: 12px;
+  font-size: 0.95rem;
   font-weight: 500;
-  color: #222;
+  color: #333333;
+  background-color: #f9fafb;
 }
 
 .id_row {
-  background-color: #f9f5ff;
+  background-color: #eef4ff;
 }
 
 .user_row {
-  background-color: #f1f9ff;
-}
-
-.food_row {
-  background-color: #f6fff8;
-  padding: 12px;
-}
-
-.food_label {
-  font-weight: 600;
-  margin-bottom: 4px;
-  display: block;
-  color: #2a2a2a;
-}
-
-.timestamp {
-  font-size: 0.8rem;
-  color: #888;
-  margin-bottom: 10px;
+  background-color: #f0faff;
 }
 
 .text_content {
   overflow: hidden;
   text-overflow: ellipsis;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 4;
   display: -webkit-box;
   line-height: 1.5;
 }
 
-.food_table_wrapper {
-  overflow-x: auto;
-}
-
-.food_table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 6px;
-  font-size: 0.9rem;
-}
-
-.food_table th,
-.food_table td {
-  text-align: left;
-  padding: 6px 8px;
-  border-bottom: 1px solid #eee;
-}
-
-.food_table th {
-  background-color: #f1f5fb;
-  font-weight: 600;
-  color: #333;
-}
-
 @media (max-width: 480px) {
   .container {
-    padding: 16px;
+    padding: 20px;
   }
 
   .text_content {
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 3;
   }
 
   .title_row h5 {
     font-size: 1rem;
-  }
-
-  .food_table {
-    font-size: 0.85rem;
   }
 }

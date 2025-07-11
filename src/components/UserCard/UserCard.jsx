@@ -24,7 +24,9 @@ export function UserCard({
     <div
       onClick={onClickCard}
       className={`card ${s.container}`}
-      style={{ borderColor: isCardHovered ? "#0d6efd" : "transparent" }}
+      style={{
+        borderColor: isCardHovered ? "#0d6efd" : "transparent",
+      }}
       onMouseEnter={() => setIsCardHovered(true)}
       onMouseLeave={() => setIsCardHovered(false)}
     >
@@ -32,10 +34,13 @@ export function UserCard({
         <div className={s.title_row}>
           <h5 className="card-title">{firstName}</h5>
           <Trash
-            size={20}
+            size={22}
             onMouseEnter={() => setIsTrashHovered(true)}
             onMouseLeave={() => setIsTrashHovered(false)}
-            style={{ color: isTrashHovered ? "#FF7373" : "#b8b8b8" }}
+            style={{
+              color: isTrashHovered ? "#FF7373" : "#b8b8b8",
+              cursor: "pointer",
+            }}
             onClick={onClickTrash_}
           />
         </div>

@@ -1283,6 +1283,33 @@
         "description": "Rich in antioxidants and minerals.",
         "healthRecommendations": "Choose high cacao content; consume in moderation."
       }
+    },
+    {
+      "id": "1",
+      "name": "Foodie",
+      "calories": "122",
+      "content": "per 100g cooked",
+      "totalFat": {
+        "total": "122",
+        "saturated": "2",
+        "trans": "4"
+      },
+      "sodium": "11",
+      "totalCarbohydrates": {
+        "total": "111",
+        "fiber": "3",
+        "sugars": "56"
+      },
+      "protein": "12",
+      "vitamins": {
+        "B6": "",
+        "B12": ""
+      },
+      "generalInfo": {
+        "description": "Nope",
+        "healthRecommendations": "For testing only"
+      },
+      "created_at": "7/11/2025"
     }
   ]
 }

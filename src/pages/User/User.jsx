@@ -15,23 +15,17 @@ export function User(props) {
     alert("submit");
   };
 
+  if (!user) {
+    return null;
+  }
+
   return (
-    <>
-      {user && (
-        <UserForm
-          isEditable={isEditable}
-          user={user}
-          // id={user.id}
-          // firstName={user.firstName}
-          // age={user.age}
-          // height={user.height}
-          // weight={user.weight}
-          // recommendedCal={user.recommendedCal}
-          onClickDelete={() => alert("delete")}
-          onClickEdit={() => setIsEditable(!isEditable)}
-          onSubmit={isEditable && submit}
-        />
-      )}
-    </>
+    <UserForm
+      isEditable={isEditable}
+      user={user}
+      onClickDelete={() => alert("delete")}
+      onClickEdit={() => setIsEditable(!isEditable)}
+      onSubmit={isEditable && submit}
+    />
   );
 }

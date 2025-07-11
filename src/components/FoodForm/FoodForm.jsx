@@ -1,277 +1,259 @@
-import { PencilFill, TrashFill } from "react-bootstrap-icons";
+import { useState } from "react";
 import s from "./style.module.css";
 import { ButtonPrimary } from "../ButtonPrimary/ButtonPrimary";
-import { useState } from "react";
 
-export function FoodForm({ isEditable = true, food, onSubmit = {} }) {
+export function FoodForm({ food = {}, onSubmit = () => {} }) {
   const [formValues, setFormValues] = useState({
-    id: food?.id,
-    name: food?.name,
-    calories: food?.calories,
-    content: food?.content,
-    totalFat: food?.totalFat || {},
-    sodium: food?.sodium,
-    totalCarbohydrates: food?.totalCarbohydrates || {},
-    protein: food?.protein,
-    vitamins: food?.vitamins || {},
-    generalInfo: food?.generalInfo || {},
+    id: food.id || "",
+    name: food.name || "",
+    calories: food.calories || "",
+    content: food.content || "",
+    totalFat: {
+      total: food.totalFat?.total || "",
+      saturated: food.totalFat?.saturated || "",
+      trans: food.totalFat?.trans || "",
+    },
+    sodium: food.sodium || "",
+    totalCarbohydrates: {
+      total: food.totalCarbohydrates?.total || "",
+      fiber: food.totalCarbohydrates?.fiber || "",
+      sugars: food.totalCarbohydrates?.sugars || "",
+    },
+    protein: food.protein || "",
+    vitamins: {
+      B6: food.vitamins?.B6 || "",
+      B12: food.vitamins?.B12 || "",
+    },
+    generalInfo: {
+      description: food.generalInfo?.description || "",
+      healthRecommendations: food.generalInfo?.healthRecommendations || "",
+    },
   });
 
-  //TODO: update, delete?
+  const [isEditMode, setIsEditMode] = useState(false);
 
-  //   const updateFormValues = (e) => {
-  //     const name = e.target.name;
-  //     const value = e.target.value;
+  const updateFormValues = (e) => {
+    const { name, value } = e.target;
+    setFormValues({ ...formValues, [name]: value });
+  };
 
-  //     setFormValues({ ...formValues, [name]: value });
-  //   };
+  const updateNested = (section, key, value) => {
+    setFormValues((prev) => ({
+      ...prev,
+      [section]: {
+        ...prev[section],
+        [key]: value,
+      },
+    }));
+  };
 
-  //   const handleFoodChange = (index, field, value) => {
-  //     const newFoods = [...formValues.consumedFoods];
-  //     newFoods[index] = {
-  //       ...newFoods[index],
-  //       [field]:
-  //         field === "amount" || field === "calories" ? Number(value) : value,
-  //     };
-  //     setFormValues({ ...formValues, consumedFoods: newFoods });
-  //   };
-
-  //   const handleAddFood = () => {
-  //     setFormValues({
-  //       ...formValues,
-  //       consumedFoods: [
-  //         ...formValues.consumedFoods,
-  //         { foodName: "", amount: 0, unit: "", calories: 0 },
-  //       ],
-  //     });
-  //   };
-
-  //   const handleRemoveFood = (index) => {
-  //     const newFoods = formValues.consumedFoods.filter(
-  //       (current, i) => i !== index
-  //     );
-  //     setFormValues({ ...formValues, consumedFoods: newFoods });
-  //   };
-
-  //   const nameInput = (
-  //     <>
-  //       <label className="form-label">Name</label>
-  //       <input
-  //         type="text"
-  //         name="name"
-  //         className="form-control"
-  //         value={formValues.name}
-  //       />
-  //     </>
-  //   );
-
-  //   const caloriesInput = (
-  //     <>
-  //       <label className="form-label">Calories</label>
-  //       <input
-  //         type="text"
-  //         name="id"
-  //         className="form-control"
-  //         value={formValues.calories}
-  //       />
-  //     </>
-  //   );
-
-  //   const idInput = (
-  //     <>
-  //       <label className="form-label">id</label>
-  //       <input
-  //         type="text"
-  //         name="id"
-  //         className="form-control"
-  //         value={formValues.id}
-  //       />
-  //     </>
-  //   );
-
-  //   const totalFatInput = (
-  //     <>
-  //       <label className="form-label">Total Fat Information</label>
-  //       <div className="card p-3 mb-3">
-  //         <div className="row mb-2">
-  //           <div className="col">
-  //             <label className="form-label">Total Fat (g)</label>
-  //             <input
-  //               type="number"
-  //               className="form-control"
-  //               value={formValues.totalFat.total}
-  //             />
-  //           </div>
-  //           <div className="col">
-  //             <label className="form-label">Saturated Fat (g)</label>
-  //             <input
-  //               type="number"
-  //               className="form-control"
-  //               value={formValues.totalFat.saturated}
-  //             />
-  //           </div>
-  //           <div className="col">
-  //             <label className="form-label">Trans Fat (g)</label>
-  //             <input
-  //               type="number"
-  //               className="form-control"
-  //               value={formValues.totalFat.trans}
-  //             />
-  //           </div>
-  //         </div>
-  //       </div>
-  //     </>
-  //   );
-
-  //   const contentInput = (
-  //     <>
-  //       <label className="form-label">Content</label>
-  //       <input
-  //         type="text"
-  //         name="content"
-  //         className="form-control"
-  //         value={formValues.content}
-  //       />
-  //     </>
-  //   );
-
-  //   const totalCarbohydratesInput = (
-  //     <>
-  //       <label className="form-label">Total Carbohydrates Information</label>
-  //       <div className="card p-3 mb-3">
-  //         <div className="row mb-2">
-  //           <div className="col">
-  //             <label className="form-label">Total Carbohydrates (g)</label>
-  //             <input
-  //               type="number"
-  //               className="form-control"
-  //               value={formValues.totalCarbohydrates.total}
-  //             />
-  //           </div>
-  //           <div className="col">
-  //             <label className="form-label">Fiber (g)</label>
-  //             <input
-  //               type="number"
-  //               className="form-control"
-  //               value={formValues.totalCarbohydrates.fiber}
-  //             />
-  //           </div>
-  //           <div className="col">
-  //             <label className="form-label">Sugars (g)</label>
-  //             <input
-  //               type="number"
-  //               className="form-control"
-  //               value={formValues.totalCarbohydrates.sugars}
-  //             />
-  //           </div>
-  //         </div>
-  //       </div>
-  //     </>
-  //   );
-
-  //   const sodiumInput = (
-  //     <>
-  //       <label className="form-label">Sodium</label>
-  //       <input
-  //         type="text"
-  //         name="sodium"
-  //         className="form-control"
-  //         value={formValues.sodium}
-  //       />
-  //     </>
-  //   );
-
-  //   const proteinInput = (
-  //     <>
-  //       <label className="form-label">Protein</label>
-  //       <input
-  //         type="text"
-  //         name="protein"
-  //         className="form-control"
-  //         value={formValues.protein}
-  //       />
-  //     </>
-  //   );
-
-  //   const generalInfoInput = (
-  //     <>
-  //       <label className="form-label">Information</label>
-  //       <div className="card p-3 mb-3">
-  //         <div className="row mb-2">
-  //           <div className="col">
-  //             <label className="form-label">Description (g)</label>
-  //             <input
-  //               type="text"
-  //               className="form-control"
-  //               value={formValues.generalInfo.description}
-  //             />
-  //           </div>
-  //           <div className="col">
-  //             <label className="form-label">Health Recommendations (g)</label>
-  //             <input
-  //               type="text"
-  //               className="form-control"
-  //               value={formValues.generalInfo.healthRecommendations}
-  //             />
-  //           </div>
-  //         </div>
-  //       </div>
-  //     </>
-  //   );
-
-  //   const submitBtn = (
-  //     <div className={s.submit_btn}>
-  //       <ButtonPrimary onClick={() => onSubmit(formValues)}>Submit</ButtonPrimary>
-  //     </div>
-  //   );
+  const handleSubmit = () => {
+    onSubmit(formValues);
+    setIsEditMode(false);
+  };
 
   return (
-    <div className={s.container}>
-      <div className="row justify-content-space-between">
-        <div className="col-10">
-          <h2 className="mb-3">{food.name}</h2>
-        </div>
+    <div className={`${s.card} ${s.container}`}>
+      <div className={s.header}>
+        <h2>{formValues.name || "New Food"}</h2>
+        <ButtonPrimary onClick={() => setIsEditMode(!isEditMode)}>
+          {isEditMode ? "Cancel" : "Edit"}
+        </ButtonPrimary>
       </div>
 
-      <div className={`mb-3 ${s.review_input_container}`}>Id: {food.id}</div>
-      <div className={`mb-3 ${s.review_input_container}`}>
-        <strong>Calories:</strong> {food.calories}
-      </div>
-      <div className={`mb-3 ${s.review_input_container}`}>
-        <strong>Content:</strong> {food.content}
-      </div>
-      <div className={`mb-3 ${s.review_input_container}`}>
-        <strong>Fats:</strong> Total: {food.totalFat.total}, Saturated:{" "}
-        {food.totalFat.saturated}, Trans: {food.totalFat.trans}
-      </div>
-      <div className={`mb-3 ${s.review_input_container}`}>
-        <strong>Sodium:</strong> {food.sodium}
-      </div>
-      <div className={`mb-3 ${s.review_input_container}`}>
-        <strong>Carbohydrates:</strong> Total: {food.totalCarbohydrates.total},
-        Fiber:
-        {food.totalCarbohydrates.fiber}, Sugars:
-        {food.totalCarbohydrates.sugars}
-      </div>
-      <div className={`mb-3 ${s.review_input_container}`}>
-        <strong>Protein:</strong> {food.protein}
-      </div>
-      <div className={`mb-3 ${s.review_input_container}`}>
-        <strong>Vitamins:</strong>
-        {Object.entries(food.vitamins).map(([key, value]) => (
-          <div key={key}>
-            {key}: {value}
+      {isEditMode ? (
+        <>
+          <div className={s.inputGroup}>
+            <label>ID</label>
+            <input
+              type="text"
+              name="id"
+              className="form-control"
+              value={formValues.id}
+              onChange={updateFormValues}
+            />
           </div>
-        ))}
-      </div>
-      <div className={`mb-3 ${s.review_input_container}`}>
-        <strong>General Info: </strong> Info: {food.generalInfo.description}
-        <div></div>
-        Health Recommendations:
-        {food.generalInfo.healthRecommendations}
-      </div>
 
-      {/* {onSubmit && submitBtn} */}
+          <div className={s.inputGroup}>
+            <label>Name</label>
+            <input
+              type="text"
+              name="name"
+              className="form-control"
+              value={formValues.name}
+              onChange={updateFormValues}
+            />
+          </div>
+
+          <div className={s.inputGroup}>
+            <label>Calories</label>
+            <input
+              type="number"
+              name="calories"
+              className="form-control"
+              value={formValues.calories}
+              onChange={updateFormValues}
+            />
+          </div>
+
+          <div className={s.inputGroup}>
+            <label>Content</label>
+            <input
+              type="text"
+              name="content"
+              className="form-control"
+              value={formValues.content}
+              onChange={updateFormValues}
+            />
+          </div>
+
+          <div className={s.subsection}>
+            <h5>Total Fat (g)</h5>
+            <div className={s.row}>
+              <input
+                type="number"
+                placeholder="Total"
+                value={formValues.totalFat.total}
+                onChange={(e) =>
+                  updateNested("totalFat", "total", e.target.value)
+                }
+              />
+              <input
+                type="number"
+                placeholder="Saturated"
+                value={formValues.totalFat.saturated}
+                onChange={(e) =>
+                  updateNested("totalFat", "saturated", e.target.value)
+                }
+              />
+              <input
+                type="number"
+                placeholder="Trans"
+                value={formValues.totalFat.trans}
+                onChange={(e) =>
+                  updateNested("totalFat", "trans", e.target.value)
+                }
+              />
+            </div>
+          </div>
+
+          <div className={s.inputGroup}>
+            <label>Sodium (mg)</label>
+            <input
+              type="number"
+              name="sodium"
+              className="form-control"
+              value={formValues.sodium}
+              onChange={updateFormValues}
+            />
+          </div>
+
+          <div className={s.subsection}>
+            <h5>Total Carbohydrates (g)</h5>
+            <div className={s.row}>
+              <input
+                type="number"
+                placeholder="Total"
+                value={formValues.totalCarbohydrates.total}
+                onChange={(e) =>
+                  updateNested("totalCarbohydrates", "total", e.target.value)
+                }
+              />
+              <input
+                type="number"
+                placeholder="Fiber"
+                value={formValues.totalCarbohydrates.fiber}
+                onChange={(e) =>
+                  updateNested("totalCarbohydrates", "fiber", e.target.value)
+                }
+              />
+              <input
+                type="number"
+                placeholder="Sugars"
+                value={formValues.totalCarbohydrates.sugars}
+                onChange={(e) =>
+                  updateNested("totalCarbohydrates", "sugars", e.target.value)
+                }
+              />
+            </div>
+          </div>
+
+          <div className={s.inputGroup}>
+            <label>Protein (g)</label>
+            <input
+              type="number"
+              name="protein"
+              className="form-control"
+              value={formValues.protein}
+              onChange={updateFormValues}
+            />
+          </div>
+
+          <div className={s.inputGroup}>
+            <label>Description</label>
+            <input
+              type="text"
+              value={formValues.generalInfo.description}
+              onChange={(e) =>
+                updateNested("generalInfo", "description", e.target.value)
+              }
+            />
+          </div>
+
+          <div className={s.inputGroup}>
+            <label>Health Recommendations</label>
+            <input
+              type="text"
+              value={formValues.generalInfo.healthRecommendations}
+              onChange={(e) =>
+                updateNested(
+                  "generalInfo",
+                  "healthRecommendations",
+                  e.target.value
+                )
+              }
+            />
+          </div>
+
+          <div className={s.submit_btn}>
+            <ButtonPrimary onClick={handleSubmit}>Save</ButtonPrimary>
+          </div>
+        </>
+      ) : (
+        <>
+          <div className={s.item}>
+            <strong>ID:</strong> {formValues.id}
+          </div>
+          <div className={s.item}>
+            <strong>Calories:</strong> {formValues.calories}
+          </div>
+          <div className={s.item}>
+            <strong>Content:</strong> {formValues.content}
+          </div>
+          <div className={s.item}>
+            <strong>Fat:</strong> Total {formValues.totalFat.total}, Saturated{" "}
+            {formValues.totalFat.saturated}, Trans {formValues.totalFat.trans}
+          </div>
+          <div className={s.item}>
+            <strong>Sodium:</strong> {formValues.sodium} mg
+          </div>
+          <div className={s.item}>
+            <strong>Carbs:</strong> Total {formValues.totalCarbohydrates.total},
+            Fiber {formValues.totalCarbohydrates.fiber}, Sugars{" "}
+            {formValues.totalCarbohydrates.sugars}
+          </div>
+          <div className={s.item}>
+            <strong>Protein:</strong> {formValues.protein} g
+          </div>
+          <div className={s.item}>
+            <strong>Description:</strong> {formValues.generalInfo.description}
+          </div>
+          <div className={s.item}>
+            <strong>Health Recommendations:</strong>{" "}
+            {formValues.generalInfo.healthRecommendations}
+          </div>
+        </>
+      )}
     </div>
   );
 }

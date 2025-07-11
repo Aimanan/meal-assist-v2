@@ -1,27 +1,27 @@
 import { useDispatch, useSelector } from "react-redux";
 import { MealApi } from "../../api/meal-api";
-import { MealForm } from "../../components/MealForm/MealForm";
-import { useNavigate, useParams } from "react-router-dom";
-import { addMeal } from "../../store/meals/meals-slice";
 
-export function MealCreate(props) {
+import { useNavigate, useParams } from "react-router-dom";
+import { addFood } from "../../store/foods/foods-slice";
+import { FoodForm } from "../../components/FoodForm/FoodForm";
+
+export function FoodCreate(props) {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
   const submit = async (formValues) => {
-    const createdMeal = await MealApi.createMeal({
-      // userId: user.id,
+    const createdFood = await MealApi.createFood({
       ...formValues,
       created_at: new Date().toLocaleDateString(),
     });
 
-    dispatch(addMeal(createdMeal));
-    alert("A meal has been created");
+    dispatch(addFood(createdFood));
+    alert("A food has been created");
     navigate("/");
   };
   return (
     <>
-      <MealForm title="New meal" onSubmit={submit} />
+      <FoodForm title="New food" onSubmit={submit} />
     </>
   );
 }

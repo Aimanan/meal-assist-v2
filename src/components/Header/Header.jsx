@@ -18,7 +18,13 @@ export function Header(props) {
       </div>
       <div className="col-xs-12 col-sm-8 text-end">
         <ButtonPrimary onClick={() => navigate("/meal/new")}>
-          Add meal +
+          Add meal
+        </ButtonPrimary>
+      </div>
+
+      <div className="col-xs-8 col-sm-12 text-end">
+        <ButtonPrimary onClick={() => navigate("/food/new")}>
+          Add food
         </ButtonPrimary>
       </div>
     </div>

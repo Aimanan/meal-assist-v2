@@ -12,6 +12,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { UserBrowse } from "./pages/UserBrowse/UserBrowse.jsx";
 import { FoodBrowse } from "./pages/FoodBrowse/FoodBrowse.jsx";
 import { Food } from "./pages/Food/Food.jsx";
+import { FoodCreate } from "./pages/FoodCreate/FoodCreate.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -26,6 +27,7 @@ createRoot(document.getElementById("root")).render(
             <Route path="/user" element={<UserBrowse />} />
             <Route path="/user/:userId" element={<User />} />
             <Route path="/food" element={<FoodBrowse />} />
+            <Route path="/food/new" element={<FoodCreate />} />
             <Route path="/food/:foodId" element={<Food />} />
           </Route>
         </Routes>

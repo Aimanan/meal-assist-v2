@@ -53,4 +53,9 @@ export class MealApi {
   static async getFoodData(foodName) {
     return (await axios.get(`${BASE_URL}/food/search?name=${foodName}`)).data;
   }
+
+    static async createFood(formValues) {
+    return (await axios.post(`${BASE_URL}/food`, formValues)).data;
+
+  }
 }

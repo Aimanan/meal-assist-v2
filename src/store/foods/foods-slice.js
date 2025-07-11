@@ -22,5 +22,5 @@ function formatId(food) {
   };
 }
 
-export const { setFoodList } = foodsSlice.actions;
+export const { setFoodList, addFood } = foodsSlice.actions;
 export const foodsReducer = foodsSlice.reducer;
