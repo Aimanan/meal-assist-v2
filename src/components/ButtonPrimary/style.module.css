@@ -1,22 +1,23 @@
 .button {
   border-radius: 50px;
   font-weight: 600;
-  width: 140px;
-  height: 50px;
+  min-width: 130px;
+  height: 48px;
   font-size: 1rem;
   background: linear-gradient(135deg, #0d6efd 0%, #3a8bfd 100%);
   color: #fff;
   border: none;
-  box-shadow: 0 6px 18px rgba(13, 110, 253, 0.3);
+  box-shadow: 0 6px 16px rgba(13, 110, 253, 0.3);
   transition: all 0.3s ease;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  padding: 0 20px;
 }
 
 .button:hover {
   background: linear-gradient(135deg, #0b5ed7 0%, #2e7dfd 100%);
-  box-shadow: 0 8px 24px rgba(13, 110, 253, 0.4);
+  box-shadow: 0 8px 22px rgba(13, 110, 253, 0.4);
   transform: translateY(-2px);
 }
 
